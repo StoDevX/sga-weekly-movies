@@ -3,9 +3,12 @@ from datetime import datetime
 import json
 import os
 import re
+import sys
 import urllib.parse
 
 import pytz
+from colorthief import ColorThief
+from PIL import Image
 
 BASE = 'https://stodevx.github.io/sga-weekly-movies'
 
@@ -39,20 +42,38 @@ def load_showings_as_isoformat(folder_path):
         showings = json.load(infile)
 
     offset = now().strftime('%z')
-    return [
-        {
-            'time': datetime.strptime(f"{day['date']} {time}{offset}", '%Y/%m/%d %H:%M%z'),
-            'location': day['location'],
+    for day in showings['showings']:
+        for time in day['times']:
+            ds = f"{day['date']} {time}{offset}"
+            yield {
+                'time': datetime.strptime(ds, '%Y/%m/%d %H:%M%z'),
+                'location': day['location'],
+            }
+
+
+def find_posters(folder_path, url_root):
+    posters = [f for f in os.scandir(folder_path) if f.name.startswith('poster-')]
+
+    for f in posters:
+        with Image.open(f.path) as img:
+            width, height = img.size
+
+        yield {
+            'url': f'{url_root}/{f.name}',
+            'filename': f.name,
+            'width': width,
+            'height': height,
         }
-        for day in showings['showings']
-        for time in day['times']
-    ]
 
 
-def find_posters(folder_path):
-    return {re.sub(r'poster-(\d+).jpg', r'\1', f.name): f.name
-            for f in os.scandir(folder_path)
-            if f.name.startswith('poster-')}
+def find_poster_colors(folder_path, posters):
+    smallest = posters[0]
+    colors = ColorThief(os.path.join(folder_path, smallest['filename']))
+
+    return {
+        'dominant': colors.get_color(quality=1),
+        'palette': colors.get_palette(color_count=6),
+    }
 
 
 def main():
@@ -62,11 +83,18 @@ def main():
         if not folder.is_dir():
             continue
 
+        print(f'processing {folder.name}', file=sys.stderr)
+
+        url_root = f'{BASE}/movies/{urllib.parse.quote(folder.name)}'
+
+        posters = sorted(list(find_posters(folder.path, url_root)), key=lambda p: p['width'])
+
         data = {
-            'root': f'{BASE}/movies/{urllib.parse.quote(folder.name)}',
+            'root': url_root,
             'info': load_movie_info(folder.path),
-            'showings': load_showings_as_isoformat(folder.path),
-            'posters': find_posters(folder.path),
+            'showings': list(load_showings_as_isoformat(folder.path)),
+            'posters': posters,
+            'posterColors': find_poster_colors(folder.path, posters),
         }
 
         entries[folder.name] = data
