@@ -3,6 +3,7 @@ from datetime import datetime
 import json
 import os
 import re
+import sys
 import urllib.parse
 
 import pytz
@@ -71,6 +72,8 @@ def main():
     for folder in os.scandir('movies'):
         if not folder.is_dir():
             continue
+
+        print(f'processing {folder.name}', file=sys.stderr)
 
         url_root = f'{BASE}/movies/{urllib.parse.quote(folder.name)}'
 
