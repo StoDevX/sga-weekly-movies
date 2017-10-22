@@ -7,6 +7,7 @@ import sys
 import urllib.parse
 
 import pytz
+from colorthief import ColorThief
 from PIL import Image
 
 BASE = 'https://stodevx.github.io/sga-weekly-movies'
@@ -51,10 +52,9 @@ def load_showings_as_isoformat(folder_path):
 
 
 def find_posters(folder_path, url_root):
-    for f in os.scandir(folder_path):
-        if not f.name.startswith('poster-'):
-            continue
+    posters = [f for f in os.scandir(folder_path) if f.name.startswith('poster-')]
 
+    for f in posters:
         with Image.open(f.path) as img:
             width, height = img.size
 
@@ -64,6 +64,16 @@ def find_posters(folder_path, url_root):
             'width': width,
             'height': height,
         }
+
+
+def find_poster_colors(folder_path, posters):
+    smallest = posters[0]
+    colors = ColorThief(os.path.join(folder_path, smallest['filename']))
+
+    return {
+        'dominant': colors.get_color(quality=1),
+        'palette': colors.get_palette(color_count=6),
+    }
 
 
 def main():
@@ -84,6 +94,7 @@ def main():
             'info': load_movie_info(folder.path),
             'showings': list(load_showings_as_isoformat(folder.path)),
             'posters': posters,
+            'posterColors': find_poster_colors(folder.path, posters),
         }
 
         entries[folder.name] = data
