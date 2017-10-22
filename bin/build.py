@@ -58,7 +58,7 @@ def main():
             continue
 
         data = {
-            'root': f'{BASE}/movies/{urllib.parse.quote_plus(folder.name)}',
+            'root': f'{BASE}/movies/{urllib.parse.quote(folder.name)}',
             'info': load_movie_info(folder.path),
             'showings': load_showings_as_isoformat(folder.path),
             'posters': find_posters(folder.path),
