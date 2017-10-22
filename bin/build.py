@@ -6,6 +6,7 @@ import re
 import urllib.parse
 
 import pytz
+from PIL import Image
 
 BASE = 'https://stodevx.github.io/sga-weekly-movies'
 
@@ -49,10 +50,20 @@ def load_showings_as_isoformat(folder_path):
     ]
 
 
-def find_posters(folder_path):
-    return {re.sub(r'poster-(\d+).jpg', r'\1', f.name): f.name
-            for f in os.scandir(folder_path)
-            if f.name.startswith('poster-')}
+def find_posters(folder_path, url_root):
+    for f in os.scandir(folder_path):
+        if not f.name.startswith('poster-'):
+            continue
+
+        with Image.open(f.path) as img:
+            width, height = img.size
+
+        yield {
+            'url': f'{url_root}/{f.name}',
+            'filename': f.name,
+            'width': width,
+            'height': height,
+        }
 
 
 def main():
@@ -62,11 +73,13 @@ def main():
         if not folder.is_dir():
             continue
 
+        url_root = f'{BASE}/movies/{urllib.parse.quote(folder.name)}'
+
         data = {
-            'root': f'{BASE}/movies/{urllib.parse.quote(folder.name)}',
+            'root': url_root,
             'info': load_movie_info(folder.path),
             'showings': load_showings_as_isoformat(folder.path),
-            'posters': find_posters(folder.path),
+            'posters': sorted(list(find_posters(folder.path, url_root)), key=lambda p: p['width']),
         }
 
         entries[folder.name] = data
