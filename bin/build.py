@@ -35,7 +35,7 @@ def load_movie_info(folder_path):
 
 
 def load_showings_as_isoformat(folder_path):
-    with open(os.path.join(folder_path, 'showing.json'), 'r', encoding='utf-8') as infile:
+    with open(os.path.join(folder_path, 'showings.json'), 'r', encoding='utf-8') as infile:
         showings = json.load(infile)
 
     offset = now().strftime('%z')
@@ -69,14 +69,13 @@ def main():
         with open(os.path.join(folder.path, 'index.json'), 'w', encoding='utf-8') as outfile:
             json.dump(data, outfile, default=json_serialize, ensure_ascii=False)
 
-    all_by_date = sorted([f"{m['root']}/index.json"
-                          for m in entries.values()])
+    dirs = sorted([m['root'] for m in entries.values()])
 
     with open('archive.json', 'w', encoding='utf-8') as outfile:
-        json.dump({'movies': all_by_date}, outfile, default=json_serialize, ensure_ascii=False)
+        json.dump({'movies': dirs}, outfile, default=json_serialize, ensure_ascii=False)
 
     with open('next.json', 'w', encoding='utf-8') as outfile:
-        json.dump({'movie': all_by_date[-1]}, outfile, default=json_serialize, ensure_ascii=False)
+        json.dump({'movie': f"{dirs[-1]}/index.json"}, outfile, default=json_serialize, ensure_ascii=False)
 
 
 if __name__ == '__main__':
