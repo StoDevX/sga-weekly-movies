@@ -8,7 +8,8 @@ name = "pypi"
 [packages]
 
 pytz = "*"
-Pillow = "*"
+pillow = "*"
+colorthief = "*"
 
 
 [dev-packages]

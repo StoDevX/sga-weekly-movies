@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "f9cd4c1455a1421e9cea3b1f2eaf201815afe588ca030e89c4dc76ba64f964ff"
+            "sha256": "d1d4285c5ff1f598d1fbf112c4a11b0c07fe58ddea6b80e930942003bc7676d4"
         },
         "host-environment-markers": {
             "implementation_name": "cpython",
@@ -29,6 +29,13 @@
         ]
     },
     "default": {
+        "colorthief": {
+            "hashes": [
+                "sha256:b04fc8ce5cf9c888768745e29cb19b7b688d5711af6fba26e8057debabec56b9",
+                "sha256:079cb0c95bdd669c4643e2f7494de13b0b6029d5cdbe2d74d5d3c3386bd57221"
+            ],
+            "version": "==0.2.1"
+        },
         "olefile": {
             "hashes": [
                 "sha256:61f2ca0cd0aa77279eb943c07f607438edf374096b66332fae1ee64a6f0f73ad"
