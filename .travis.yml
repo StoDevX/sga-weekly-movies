@@ -1,6 +1,6 @@
 os: linux
-distro: trusty
-langauge: python
+dist: trusty
+language: python
 python:
   - 3.6
 
