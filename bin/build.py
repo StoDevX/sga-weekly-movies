@@ -40,14 +40,13 @@ def load_showings_as_isoformat(folder_path):
         showings = json.load(infile)
 
     offset = now().strftime('%z')
-    return [
-        {
-            'time': datetime.strptime(f"{day['date']} {time}{offset}", '%Y/%m/%d %H:%M%z'),
-            'location': day['location'],
-        }
-        for day in showings['showings']
-        for time in day['times']
-    ]
+    for day in showings['showings']:
+        for time in day['times']:
+            ds = f"{day['date']} {time}{offset}"
+            yield {
+                'time': datetime.strptime(ds, '%Y/%m/%d %H:%M%z'),
+                'location': day['location'],
+            }
 
 
 def find_posters(folder_path, url_root):
@@ -75,11 +74,13 @@ def main():
 
         url_root = f'{BASE}/movies/{urllib.parse.quote(folder.name)}'
 
+        posters = sorted(list(find_posters(folder.path, url_root)), key=lambda p: p['width'])
+
         data = {
             'root': url_root,
             'info': load_movie_info(folder.path),
-            'showings': load_showings_as_isoformat(folder.path),
-            'posters': sorted(list(find_posters(folder.path, url_root)), key=lambda p: p['width']),
+            'showings': list(load_showings_as_isoformat(folder.path)),
+            'posters': posters,
         }
 
         entries[folder.name] = data
