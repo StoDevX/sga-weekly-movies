@@ -72,10 +72,12 @@ def main():
     dirs = sorted([m['root'] for m in entries.values()])
 
     with open('archive.json', 'w', encoding='utf-8') as outfile:
-        json.dump({'movies': dirs}, outfile, default=json_serialize, ensure_ascii=False)
+        data = {'movies': [f"{d}/index.json" for d in dirs]}
+        json.dump(data, outfile, default=json_serialize, ensure_ascii=False)
 
     with open('next.json', 'w', encoding='utf-8') as outfile:
-        json.dump({'movie': f"{dirs[-1]}/index.json"}, outfile, default=json_serialize, ensure_ascii=False)
+        data = {'movie': f"{dirs[-1]}/index.json"}
+        json.dump(data, outfile, default=json_serialize, ensure_ascii=False)
 
 
 if __name__ == '__main__':
