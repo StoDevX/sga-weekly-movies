@@ -1,9 +1,12 @@
 os: linux
 distro: trusty
 langauge: python
-python: 3.6
+python:
+  - 3.6
 
-install: pip3 install -r requirements.txt
+install:
+  - pip install pipenv
+  - pipenv install
 
 script: python3 bin/build.py
 
