@@ -8,7 +8,9 @@ install:
   - pip3 install pipenv
   - pipenv install
 
-script: python3 bin/build.py
+script: 
+  - python3 bin/build.py
+  - git config --global user.email
 
 deploy:
   provider: pages
