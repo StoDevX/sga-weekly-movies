@@ -6,12 +6,16 @@ name = "pypi"
 
 
 [packages]
+
 pytz = "*"
+Pillow = "*"
 
 
 [dev-packages]
+
 requests = "*"
 
 
 [requires]
+
 python_version = "3.6"
