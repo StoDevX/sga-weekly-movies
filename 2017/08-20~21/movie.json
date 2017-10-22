@@ -1,0 +1,40 @@
+{
+  "Title": "Despicable Me 3",
+  "Year": "2017",
+  "Rated": "PG",
+  "Released": "30 Jun 2017",
+  "Runtime": "90 min",
+  "Genre": "Animation, Action, Adventure",
+  "Director": "Kyle Balda, Pierre Coffin, Eric Guillon(co-director)",
+  "Writer": "Cinco Paul, Ken Daurio",
+  "Actors": "Steve Carell, Kristen Wiig, Trey Parker, Miranda Cosgrove",
+  "Plot": "Gru meets his long-lost charming, cheerful, and more successful twin brother Dru who wants to team up with him for one last criminal heist.",
+  "Language": "English",
+  "Country": "USA",
+  "Awards": "2 nominations.",
+  "Poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BNjUyNzQ2MTg3Ml5BMl5BanBnXkFtZTgwNzE4NDM3MTI@._V1_SX300.jpg",
+  "Ratings": [
+    {
+      "Source": "Internet Movie Database",
+      "Value": "6.3/10"
+    },
+    {
+      "Source": "Rotten Tomatoes",
+      "Value": "61%"
+    },
+    {
+      "Source": "Metacritic",
+      "Value": "49/100"
+    }
+  ],
+  "Metascore": "49",
+  "imdbRating": "6.3",
+  "imdbVotes": "45,293",
+  "imdbID": "tt3469046",
+  "Type": "movie",
+  "DVD": "21 Nov 2017",
+  "BoxOffice": "$262,637,975",
+  "Production": "Universal Pictures",
+  "Website": "http://www.despicable.me/",
+  "Response": "True"
+}

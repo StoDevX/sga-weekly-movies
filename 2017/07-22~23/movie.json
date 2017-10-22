@@ -1,0 +1,40 @@
+{
+  "Title": "Pirates of the Caribbean: Dead Men Tell No Tales",
+  "Year": "2017",
+  "Rated": "PG-13",
+  "Released": "26 May 2017",
+  "Runtime": "129 min",
+  "Genre": "Action, Adventure, Fantasy",
+  "Director": "Joachim Rønning, Espen Sandberg",
+  "Writer": "Jeff Nathanson (screenplay by), Jeff Nathanson (story by), Terry Rossio (story by), Ted Elliott (based on characters created by), Terry Rossio (based on characters created by), Stuart Beattie (based on characters created by), Jay Wolpert (based on characters created by)",
+  "Actors": "Johnny Depp, Javier Bardem, Geoffrey Rush, Brenton Thwaites",
+  "Plot": "Captain Jack Sparrow searches for the trident of Poseidon while being pursued by an undead sea captain and his crew.",
+  "Language": "English",
+  "Country": "USA",
+  "Awards": "5 nominations.",
+  "Poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTYyMTcxNzc5M15BMl5BanBnXkFtZTgwOTg2ODE2MTI@._V1_SX300.jpg",
+  "Ratings": [
+    {
+      "Source": "Internet Movie Database",
+      "Value": "6.8/10"
+    },
+    {
+      "Source": "Rotten Tomatoes",
+      "Value": "29%"
+    },
+    {
+      "Source": "Metacritic",
+      "Value": "39/100"
+    }
+  ],
+  "Metascore": "39",
+  "imdbRating": "6.8",
+  "imdbVotes": "129,555",
+  "imdbID": "tt1790809",
+  "Type": "movie",
+  "DVD": "N/A",
+  "BoxOffice": "$172,537,139",
+  "Production": "Walt Disney Pictures",
+  "Website": "http://pirates.disney.com/pirates-of-the-caribbean-dead-men-tell-no-tales",
+  "Response": "True"
+}
