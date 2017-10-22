@@ -39,9 +39,14 @@ def load_showings_as_isoformat(folder_path):
         showings = json.load(infile)
 
     offset = now().strftime('%z')
-    return [datetime.strptime(f"{day['date']} {time}{offset}", '%Y/%m/%d %H:%M%z')
-            for day in showings['showings']
-            for time in day['times']]
+    return [
+        {
+            'time': datetime.strptime(f"{day['date']} {time}{offset}", '%Y/%m/%d %H:%M%z'),
+            'location': day['location'],
+        }
+        for day in showings['showings']
+        for time in day['times']
+    ]
 
 
 def find_posters(folder_path):
