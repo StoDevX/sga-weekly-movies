@@ -31,7 +31,6 @@ def load_movie_info(folder_path):
     del movie["Metascore"]
     del movie["imdbRating"]
     del movie["imdbVotes"]
-    del movie["imdbID"]
     del movie["Poster"]
 
     return movie
