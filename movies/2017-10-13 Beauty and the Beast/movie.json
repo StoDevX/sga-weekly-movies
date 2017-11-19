@@ -6,13 +6,16 @@
   "Runtime": "129 min",
   "Genre": "Family, Fantasy, Musical",
   "Director": "Bill Condon",
-  "Writer": "Stephen Chbosky (screenplay by), Evan Spiliotopoulos (screenplay by), Linda Woolverton (based on the 1991 animated film \"Beauty and the Beast\", animation screenplay by)",
+  "Writer":
+    "Stephen Chbosky (screenplay by), Evan Spiliotopoulos (screenplay by), Linda Woolverton (based on the 1991 animated film \"Beauty and the Beast\", animation screenplay by)",
   "Actors": "Emma Watson, Dan Stevens, Luke Evans, Josh Gad",
-  "Plot": "An adaptation of the fairy tale about a monstrous-looking prince and a young woman who fall in love.",
+  "Plot":
+    "An adaptation of the fairy tale about a monstrous-looking prince and a young woman who fall in love.",
   "Language": "English",
   "Country": "USA, UK",
   "Awards": "5 wins & 12 nominations.",
-  "Poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTUwNjUxMTM4NV5BMl5BanBnXkFtZTgwODExMDQzMTI@._V1_SX300.jpg",
+  "Poster":
+    "https://images-na.ssl-images-amazon.com/images/M/MV5BMTUwNjUxMTM4NV5BMl5BanBnXkFtZTgwODExMDQzMTI@._V1_SX300.jpg",
   "Ratings": [
     {
       "Source": "Internet Movie Database",

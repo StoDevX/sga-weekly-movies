@@ -8,11 +8,13 @@
   "Director": "Edgar Wright",
   "Writer": "Edgar Wright",
   "Actors": "Ansel Elgort, Jon Bernthal, Jon Hamm, Eiza González",
-  "Plot": "After being coerced into working for a crime boss, a young getaway driver finds himself taking part in a heist doomed to fail.",
+  "Plot":
+    "After being coerced into working for a crime boss, a young getaway driver finds himself taking part in a heist doomed to fail.",
   "Language": "English, American Sign Language",
   "Country": "UK, USA",
   "Awards": "5 wins & 2 nominations.",
-  "Poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMjM3MjQ1MzkxNl5BMl5BanBnXkFtZTgwODk1ODgyMjI@._V1_SX300.jpg",
+  "Poster":
+    "https://images-na.ssl-images-amazon.com/images/M/MV5BMjM3MjQ1MzkxNl5BMl5BanBnXkFtZTgwODk1ODgyMjI@._V1_SX300.jpg",
   "Ratings": [
     {
       "Source": "Internet Movie Database",

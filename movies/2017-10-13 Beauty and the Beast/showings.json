@@ -1,6 +1,14 @@
 {
-	"showings": [
-		{"date": "2017/10/13", "times": ["18:30", "20:30"], "location": "Viking Theater"},
-		{"date": "2017/10/14", "times": ["18:30", "20:30"], "location": "Viking Theater"}
-	]
+  "showings": [
+    {
+      "date": "2017/10/13",
+      "times": ["18:30", "20:30"],
+      "location": "Viking Theater"
+    },
+    {
+      "date": "2017/10/14",
+      "times": ["18:30", "20:30"],
+      "location": "Viking Theater"
+    }
+  ]
 }
