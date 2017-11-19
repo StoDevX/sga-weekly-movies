@@ -1,38 +1,26 @@
 # sga-weekly-movies
 An archive of the SGA weekly movies
 
-My goal is (as automatically as possible, ofc) to input a movie title/year, the days and times of the showing, and fetch both the info json _and_ to download the poster into the repo, so that we don't abuse the image hosts.
+To add a new movie:
 
-For now, I'm adding these manually – I'll eventually subscribe to <http://www.omdbapi.com> for the automation / because I feel guilty manually scraping them.
+1. Get an OMDB API key: http://www.omdbapi.com/apikey.aspx
+2. Take the key they email you, and export it: `export OMDB_API_KEY="my-key"`
+    - I recommend putting this in your shell's config file (`~/.bashrc`, `~/.config/fish/config.fish`, etc)
+3. Install Pipenv, if you don't have it already: https://docs.pipenv.org
+4. Install our dependencies: `pipenv install && npm install`
+5. Download the movie info: `pipenv run python bin/download-movie.py YYYY-MM-DD MovieName`
+    - `YYYY-MM-DD` is the date that the movie will be shown
+    - `MovieName` is the name of the movie
+    - The script will ask you to pick the correct movie
+6. Make sure the "showings" are correct (in `showings.json`) – sometimes SGA shows movies on odd days/times
+7. Download the posters: `pipenv run python bin/download-posters.py`
+8. Reformat the JSON files: `npm run prettier`
+9. Commit and PR!
 
 ---
 
-If you create a movie folder and add "movie.json" to it, you can just run
-
-```bash
-pipenv run python bin/download-posters.py
-```
-
-which will go download any posters that aren't already downloaded.
-
-If you don't have Pipenv installed, you'll need to install [Pipenv](https://docs.pipenv.org), then `pipenv install` in this repository folder.
-
----
-
-To check that your files are workable, you can run
+If you need to check that your files are workable, you can run
 
 ```bash
 pipenv run python bin/build.py
 ```
-
----
-
-The movie folders are named according to the following pattern:
-
-```
-$YEAR-$MONTH-$DAY $NAME
-```
-
-where MONTH-DAY is the first day that the movie is playing.
-
-All days that the movie plays should be recorded in the "showings.json" file, as well as the times that it plays.
