@@ -101,14 +101,19 @@ def main():
         with open(os.path.join(folder.path, 'index.json'), 'w', encoding='utf-8') as outfile:
             json.dump(data, outfile, default=json_serialize, ensure_ascii=False)
 
-    dirs = sorted([m['root'] for m in entries.values()])
+    ordered = sorted(entries.values(), key=lambda m: m['root'])
 
     with open('archive.json', 'w', encoding='utf-8') as outfile:
-        data = {'movies': [f"{d}/index.json" for d in dirs]}
+        dirs = [m['root'] for m in ordered]
+        data = {'movies': [f'{d}/index.json' for d in dirs]}
         json.dump(data, outfile, default=json_serialize, ensure_ascii=False)
 
+    last = ordered[-1]
+    last_showing = sorted([s['time'] for s in last['showings']])[-1]
+    last_showing_date = last_showing.isoformat().split('T')[0]
+
     with open('next.json', 'w', encoding='utf-8') as outfile:
-        data = {'movie': f"{dirs[-1]}/index.json"}
+        data = {'movie': f'{last["root"]}/index.json', 'last_showing': last_showing_date}
         json.dump(data, outfile, default=json_serialize, ensure_ascii=False)
 
 
