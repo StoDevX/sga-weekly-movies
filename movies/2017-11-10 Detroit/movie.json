@@ -1,0 +1,42 @@
+{
+  "Title": "Detroit",
+  "Year": "2017",
+  "Rated": "R",
+  "Released": "04 Aug 2017",
+  "Runtime": "143 min",
+  "Genre": "Crime, Drama, History",
+  "Director": "Kathryn Bigelow",
+  "Writer": "Mark Boal",
+  "Actors": "John Boyega, Will Poulter, Algee Smith, Jacob Latimore",
+  "Plot":
+    "Fact-based drama set during the 1967 Detroit riots in which a group of rogue police officers respond to a complaint with retribution rather than justice on their minds.",
+  "Language": "English",
+  "Country": "USA",
+  "Awards": "N/A",
+  "Poster":
+    "https://images-na.ssl-images-amazon.com/images/M/MV5BMTg4MDk4MTUxMF5BMl5BanBnXkFtZTgwNDE5NjA5MjI@._V1_SX300.jpg",
+  "Ratings": [
+    {
+      "Source": "Internet Movie Database",
+      "Value": "7.6/10"
+    },
+    {
+      "Source": "Rotten Tomatoes",
+      "Value": "82%"
+    },
+    {
+      "Source": "Metacritic",
+      "Value": "78/100"
+    }
+  ],
+  "Metascore": "78",
+  "imdbRating": "7.6",
+  "imdbVotes": "9,411",
+  "imdbID": "tt5390504",
+  "Type": "movie",
+  "DVD": "N/A",
+  "BoxOffice": "$16,788,494",
+  "Production": "Annapurna Pictures",
+  "Website": "http://detroit.movie/",
+  "Response": "True"
+}
