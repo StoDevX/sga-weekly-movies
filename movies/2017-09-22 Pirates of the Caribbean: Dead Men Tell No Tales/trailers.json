@@ -1,0 +1,34 @@
+{
+  "trailers": [
+    {
+      "iso_639_1": "en",
+      "iso_3166_1": "US",
+      "key": "i3wJjLXjySg",
+      "name": "Extended Look",
+      "site": "YouTube",
+      "size": 1080,
+      "type": "Teaser",
+      "url": "https://www.youtube.com/watch?v=i3wJjLXjySg"
+    },
+    {
+      "iso_639_1": "en",
+      "iso_3166_1": "US",
+      "key": "Hgeu5rhoxxY",
+      "name": "Official Trailer",
+      "site": "YouTube",
+      "size": 1080,
+      "type": "Trailer",
+      "url": "https://www.youtube.com/watch?v=Hgeu5rhoxxY"
+    },
+    {
+      "iso_639_1": "en",
+      "iso_3166_1": "US",
+      "key": "1xo3af_6_Jk",
+      "name": "Official Teaser Trailer",
+      "site": "YouTube",
+      "size": 1080,
+      "type": "Teaser",
+      "url": "https://www.youtube.com/watch?v=1xo3af_6_Jk"
+    }
+  ]
+}

@@ -16,9 +16,18 @@
   "Poster":
     "https://images-na.ssl-images-amazon.com/images/M/MV5BN2YyZjQ0NTEtNzU5MS00NGZkLTg0MTEtYzJmMWY3MWRhZjM2XkEyXkFqcGdeQXVyMDA4NzMyOA@@._V1_SX300.jpg",
   "Ratings": [
-    { "Source": "Internet Movie Database", "Value": "8.3/10" },
-    { "Source": "Rotten Tomatoes", "Value": "92%" },
-    { "Source": "Metacritic", "Value": "94/100" }
+    {
+      "Source": "Internet Movie Database",
+      "Value": "8.3/10"
+    },
+    {
+      "Source": "Rotten Tomatoes",
+      "Value": "92%"
+    },
+    {
+      "Source": "Metacritic",
+      "Value": "94/100"
+    }
   ],
   "Metascore": "94",
   "imdbRating": "8.3",

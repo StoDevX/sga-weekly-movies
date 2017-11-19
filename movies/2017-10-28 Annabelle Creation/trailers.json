@@ -1,0 +1,74 @@
+{
+  "trailers": [
+    {
+      "iso_639_1": "en",
+      "iso_3166_1": "US",
+      "key": "KisPhy7T__Q",
+      "name": "Official Trailer",
+      "site": "YouTube",
+      "size": 1080,
+      "type": "Trailer",
+      "url": "https://www.youtube.com/watch?v=KisPhy7T__Q"
+    },
+    {
+      "iso_639_1": "en",
+      "iso_3166_1": "US",
+      "key": "EjZkJa6Z-SY",
+      "name": "Official Trailer 2",
+      "site": "YouTube",
+      "size": 1080,
+      "type": "Trailer",
+      "url": "https://www.youtube.com/watch?v=EjZkJa6Z-SY"
+    },
+    {
+      "iso_639_1": "en",
+      "iso_3166_1": "US",
+      "key": "5SB6miMDzgc",
+      "name": "New Trailer Tomorrow",
+      "site": "YouTube",
+      "size": 1080,
+      "type": "Teaser",
+      "url": "https://www.youtube.com/watch?v=5SB6miMDzgc"
+    },
+    {
+      "iso_639_1": "en",
+      "iso_3166_1": "US",
+      "key": "PoKCXC2avAc",
+      "name": "\"Secret\" TV Spot",
+      "site": "YouTube",
+      "size": 1080,
+      "type": "Teaser",
+      "url": "https://www.youtube.com/watch?v=PoKCXC2avAc"
+    },
+    {
+      "iso_639_1": "en",
+      "iso_3166_1": "US",
+      "key": "6YA-2LFIFPI",
+      "name": "\"Origin\" TV Spot",
+      "site": "YouTube",
+      "size": 1080,
+      "type": "Teaser",
+      "url": "https://www.youtube.com/watch?v=6YA-2LFIFPI"
+    },
+    {
+      "iso_639_1": "en",
+      "iso_3166_1": "US",
+      "key": "_UkepV6C0bM",
+      "name": "\"Presence\" TV Spot",
+      "site": "YouTube",
+      "size": 1080,
+      "type": "Teaser",
+      "url": "https://www.youtube.com/watch?v=_UkepV6C0bM"
+    },
+    {
+      "iso_639_1": "en",
+      "iso_3166_1": "US",
+      "key": "OUDXAOXBxa4",
+      "name": "Announcement Tease",
+      "site": "YouTube",
+      "size": 1080,
+      "type": "Teaser",
+      "url": "https://www.youtube.com/watch?v=OUDXAOXBxa4"
+    }
+  ]
+}

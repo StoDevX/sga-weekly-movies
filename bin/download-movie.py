@@ -1,18 +1,23 @@
 #!/usr/bin/env python3
 
 import os
+import re
 import sys
 import json
 import argparse
+from datetime import datetime, timedelta
 
-import requests
-from pick import pick
+from lib import find_movie, get_trailers
 
 
-API_KEY = os.getenv('OMDB_API_KEY', None)
+OMDB_API_KEY = os.getenv('OMDB_API_KEY', None)
+TMDB_API_KEY = os.getenv('TMDB_API_KEY', None)
 
-if not API_KEY:
+if not OMDB_API_KEY:
     print(f'This tool requires an OMDB api key. If you do not have one, please visit <http://www.omdbapi.com/apikey.aspx>, then `export OMDB_API_KEY="your-key" pipenv run python {sys.argv[0]}`', file=sys.stderr)
+
+if not TMDB_API_KEY:
+    print(f'This tool requires a TMDB api key. If you do not have one, please visit <https://www.themoviedb.org>, log in and get the v3 API key, then `export TMDB_API_KEY="your-key" pipenv run python {sys.argv[0]}`', file=sys.stderr)
 
 
 def parse_args():
@@ -24,47 +29,47 @@ def parse_args():
     parser.add_argument('--year', default=None, help='the year the movie was released')
 
     args = parser.parse_args()
-    # args.date = args.date.replace('/', '-')
+    args.date = datetime.strptime(args.date, '%Y-%m-%d')
+    args.date = args.date.date()
 
     return args
-
-
-def get_movie(imdbID):
-    params = {'i': imdbID, 'apiKey': API_KEY, 'plot': 'short'}
-    r = requests.get('http://www.omdbapi.com/', params=params)
-    results = r.json()
-    return results
-
-
-def find_movie(title, year):
-    params = {'s': title, 'apiKey': API_KEY, 'type': 'movie'}
-    if year:
-        params['y'] = year
-    r = requests.get('http://www.omdbapi.com/', params=params)
-    results = r.json()
-    options = [f'{m["Title"]} ({m["Year"]}) <{m["Poster"]}>' for m in results['Search']]
-    [_, chosen_index] = pick(options)
-
-    chosen_movie = results['Search'][chosen_index]
-
-    return get_movie(chosen_movie['imdbID'])
 
 
 def main():
     args = parse_args()
 
     movie = find_movie(args.title, args.year)
+    trailers = list(get_trailers(movie['imdbID']))
 
-    movie_dir = os.path.join('movies', f'{args.date} {args.title}')
+    movie_dir = os.path.join('movies', f'{args.date.isoformat()} {args.title}')
     os.makedirs(movie_dir, exist_ok=True)
-    with open(os.path.join(movie_dir, 'movie.json'), 'w', encoding='utf-8') as outfile:
+
+    movie_file = os.path.join(movie_dir, 'movie.json')
+    with open(movie_file, 'w', encoding='utf-8') as outfile:
         json.dump(movie, outfile, ensure_ascii=False, indent=2)
         outfile.write('\n')
-    with open(os.path.join(movie_dir, 'showings.json'), 'w', encoding='utf-8') as outfile:
+
+    download_posters(movie, movie_dir)
+
+    trailers_file = os.path.join(movie_dir, 'trailers.json')
+    with open(trailers_file, 'w', encoding='utf-8') as outfile:
+        json.dump({'trailers': trailers}, outfile, ensure_ascii=False, indent=2)
+        outfile.write('\n')
+
+    for trailer in trailers:
+        download_trailer(trailer, os.path.join(movie_dir, 'trailers'))
+
+    showings_file = os.path.join(movie_dir, 'showings.json')
+    with open(showings_file, 'w', encoding='utf-8') as outfile:
         showings = {
             'showings': [
                 {
-                    'date': args.date.replace('-', '/'),
+                    'date': args.date.isoformat(),
+                    'times': ['17:00', '19:30', '22:00'],
+                    'location': 'Viking Theater',
+                },
+                {
+                    'date': (args.date + timedelta(days=1)).isoformat(),
                     'times': ['17:00', '19:30', '22:00'],
                     'location': 'Viking Theater',
                 },

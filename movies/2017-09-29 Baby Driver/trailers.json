@@ -1,0 +1,34 @@
+{
+  "trailers": [
+    {
+      "iso_639_1": "en",
+      "iso_3166_1": "US",
+      "key": "UfoWyZvDCEc",
+      "name": "Trailer",
+      "site": "YouTube",
+      "size": 720,
+      "type": "Trailer",
+      "url": "https://www.youtube.com/watch?v=UfoWyZvDCEc"
+    },
+    {
+      "iso_639_1": "en",
+      "iso_3166_1": "US",
+      "key": "z2z857RSfhk",
+      "name": "International Trailer",
+      "site": "YouTube",
+      "size": 720,
+      "type": "Trailer",
+      "url": "https://www.youtube.com/watch?v=z2z857RSfhk"
+    },
+    {
+      "iso_639_1": "en",
+      "iso_3166_1": "US",
+      "key": "KMe5qYGAI7s",
+      "name": "Featurette",
+      "site": "YouTube",
+      "size": 720,
+      "type": "Featurette",
+      "url": "https://www.youtube.com/watch?v=KMe5qYGAI7s"
+    }
+  ]
+}
