@@ -1,14 +1,16 @@
 os: linux
 dist: trusty
 language: python
-python:
-  - 3.6
+python: 3.6
 
 install:
   - pip3 install pipenv
   - pipenv install
 
-script: python3 bin/build.py
+script: pipenv run python bin/build.py
+
+after_success:
+  - rm .gitignore
 
 deploy:
   provider: pages
