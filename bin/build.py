@@ -66,6 +66,39 @@ def find_posters(folder_path, url_root):
         }
 
 
+def index_trailer_thumbnails(movie_dir, trailer_key, url_root):
+    for f in os.scandir(os.path.join(movie_dir, 'trailers', trailer_key)):
+        if not (f.name.endswith('.jpg') or f.name.endswith('.png')):
+            continue
+
+        with Image.open(f.path) as img:
+            width, height = img.size
+
+        yield {
+            'url': f'{url_root}/trailers/{trailer_key}/{f.name}',
+            'filename': f'trailers/{trailer_key}/{f.name}',
+            'width': width,
+            'height': height,
+        }
+
+
+def find_trailers(folder_path, url_root):
+    with open(os.path.join(folder_path, 'trailers.json'), 'r', encoding='utf-8') as infile:
+        trailer_info = json.load(infile)
+
+    for trailer in trailer_info['trailers']:
+        thumbnails = list(index_trailer_thumbnails(folder_path, trailer['key'], url_root))
+        del trailer['site']
+        del trailer['size']
+        del trailer['key']
+        trailer['lang'] = f"{trailer['iso_639_1']}-{trailer['iso_3166_1']}"
+        del trailer['iso_639_1']
+        del trailer['iso_3166_1']
+        trailer['thumbnails'] = thumbnails
+
+        yield trailer
+
+
 def find_poster_colors(folder_path, posters):
     smallest = posters[0]
     colors = ColorThief(os.path.join(folder_path, smallest['filename']))
@@ -88,6 +121,7 @@ def main():
         url_root = f'{BASE}/movies/{urllib.parse.quote(folder.name)}'
 
         posters = sorted(list(find_posters(folder.path, url_root)), key=lambda p: p['width'])
+        trailers = list(find_trailers(folder.path, url_root))
 
         data = {
             'root': url_root,
@@ -95,6 +129,7 @@ def main():
             'showings': list(load_showings_as_isoformat(folder.path)),
             'posters': posters,
             'posterColors': find_poster_colors(folder.path, posters),
+            'trailers': trailers,
         }
 
         entries[folder.name] = data

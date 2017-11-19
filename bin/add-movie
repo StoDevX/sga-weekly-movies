@@ -1,5 +1,4 @@
 #!/bin/bash
 
 pipenv run python bin/download-movie.py "$@"
-pipenv run python bin/download-posters.py
 npm run prettier
