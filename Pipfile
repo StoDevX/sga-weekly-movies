@@ -10,10 +10,6 @@ name = "pypi"
 pytz = "*"
 pillow = "*"
 colorthief = "*"
-
-
-[dev-packages]
-
 requests = "*"
 
 
