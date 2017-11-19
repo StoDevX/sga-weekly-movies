@@ -1,36 +1,39 @@
 {
-   "Title":"Hocus Pocus",
-   "Year":"1993",
-   "Rated":"PG",
-   "Released":"16 Jul 1993",
-   "Runtime":"96 min",
-   "Genre":"Comedy, Family, Fantasy",
-   "Director":"Kenny Ortega",
-   "Writer":"David Kirschner (story), Mick Garris (story), Mick Garris (screenplay), Neil Cuthbert (screenplay)",
-   "Actors":"Bette Midler, Sarah Jessica Parker, Kathy Najimy, Omri Katz",
-   "Plot":"After three centuries, three witch sisters are resurrected in Salem, Massachusetts on Halloween night, and it is up to two teenagers, a young girl, and an immortal cat to put an end to their reign of terror once and for all.",
-   "Language":"English",
-   "Country":"USA",
-   "Awards":"2 wins & 9 nominations.",
-   "Poster":"https://images-na.ssl-images-amazon.com/images/M/MV5BMmQyYmY5ZTMtM2JkNi00NmM2LWE3ZmEtYWYzZmRkZDM0ZTdlXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg",
-   "Ratings":[
-      {
-         "Source":"Internet Movie Database",
-         "Value":"6.7/10"
-      },
-      {
-         "Source":"Rotten Tomatoes",
-         "Value":"30%"
-      }
-   ],
-   "Metascore":"N/A",
-   "imdbRating":"6.7",
-   "imdbVotes":"68,442",
-   "imdbID":"tt0107120",
-   "Type":"movie",
-   "DVD":"22 Apr 2003",
-   "BoxOffice":"N/A",
-   "Production":"Buena Vista Pictures",
-   "Website":"N/A",
-   "Response":"True"
+  "Title": "Hocus Pocus",
+  "Year": "1993",
+  "Rated": "PG",
+  "Released": "16 Jul 1993",
+  "Runtime": "96 min",
+  "Genre": "Comedy, Family, Fantasy",
+  "Director": "Kenny Ortega",
+  "Writer":
+    "David Kirschner (story), Mick Garris (story), Mick Garris (screenplay), Neil Cuthbert (screenplay)",
+  "Actors": "Bette Midler, Sarah Jessica Parker, Kathy Najimy, Omri Katz",
+  "Plot":
+    "After three centuries, three witch sisters are resurrected in Salem, Massachusetts on Halloween night, and it is up to two teenagers, a young girl, and an immortal cat to put an end to their reign of terror once and for all.",
+  "Language": "English",
+  "Country": "USA",
+  "Awards": "2 wins & 9 nominations.",
+  "Poster":
+    "https://images-na.ssl-images-amazon.com/images/M/MV5BMmQyYmY5ZTMtM2JkNi00NmM2LWE3ZmEtYWYzZmRkZDM0ZTdlXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg",
+  "Ratings": [
+    {
+      "Source": "Internet Movie Database",
+      "Value": "6.7/10"
+    },
+    {
+      "Source": "Rotten Tomatoes",
+      "Value": "30%"
+    }
+  ],
+  "Metascore": "N/A",
+  "imdbRating": "6.7",
+  "imdbVotes": "68,442",
+  "imdbID": "tt0107120",
+  "Type": "movie",
+  "DVD": "22 Apr 2003",
+  "BoxOffice": "N/A",
+  "Production": "Buena Vista Pictures",
+  "Website": "N/A",
+  "Response": "True"
 }

@@ -8,11 +8,13 @@
   "Director": "Kyle Balda, Pierre Coffin, Eric Guillon(co-director)",
   "Writer": "Cinco Paul, Ken Daurio",
   "Actors": "Steve Carell, Kristen Wiig, Trey Parker, Miranda Cosgrove",
-  "Plot": "Gru meets his long-lost charming, cheerful, and more successful twin brother Dru who wants to team up with him for one last criminal heist.",
+  "Plot":
+    "Gru meets his long-lost charming, cheerful, and more successful twin brother Dru who wants to team up with him for one last criminal heist.",
   "Language": "English",
   "Country": "USA",
   "Awards": "2 nominations.",
-  "Poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BNjUyNzQ2MTg3Ml5BMl5BanBnXkFtZTgwNzE4NDM3MTI@._V1_SX300.jpg",
+  "Poster":
+    "https://images-na.ssl-images-amazon.com/images/M/MV5BNjUyNzQ2MTg3Ml5BMl5BanBnXkFtZTgwNzE4NDM3MTI@._V1_SX300.jpg",
   "Ratings": [
     {
       "Source": "Internet Movie Database",
