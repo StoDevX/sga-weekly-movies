@@ -11,6 +11,7 @@ pytz = "*"
 pillow = "*"
 colorthief = "*"
 requests = "*"
+pick = "*"
 
 
 [requires]
