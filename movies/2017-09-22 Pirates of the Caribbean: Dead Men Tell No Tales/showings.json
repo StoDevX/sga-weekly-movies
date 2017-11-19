@@ -1,12 +1,12 @@
 {
   "showings": [
     {
-      "date": "2017/09/22",
+      "date": "2017-09-22",
       "times": ["17:00", "19:30", "22:00"],
       "location": "Viking Theater"
     },
     {
-      "date": "2017/09/23",
+      "date": "2017-09-23",
       "times": ["17:00", "19:30", "22:00"],
       "location": "Viking Theater"
     }
