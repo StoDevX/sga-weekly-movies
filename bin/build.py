@@ -45,7 +45,7 @@ def load_showings_as_isoformat(folder_path):
         for time in day['times']:
             ds = f"{day['date']} {time}{offset}"
             yield {
-                'time': datetime.strptime(ds, '%Y/%m/%d %H:%M%z'),
+                'time': datetime.strptime(ds, '%Y-%m-%d %H:%M%z'),
                 'location': day['location'],
             }
 
