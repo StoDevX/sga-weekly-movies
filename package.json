@@ -1,0 +1,14 @@
+{
+  "name": "sga-weekly-movies",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/StoDevX/sga-weekly-movies",
+  "author": "Hawken Rives <hawkrives@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "prettier": "prettier --write movies/**/*.json"
+  },
+  "devDependencies": {
+    "prettier": "^1.8.2"
+  }
+}
