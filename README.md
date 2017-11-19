@@ -10,11 +10,20 @@ For now, I'm adding these manually – I'll eventually subscribe to <http://www.
 If you create a movie folder and add "movie.json" to it, you can just run
 
 ```bash
-python3 bin/download-posters.py
+pipenv run python bin/download-posters.py
 ```
 
 which will go download any posters that aren't already downloaded.
 
+If you don't have Pipenv installed, you'll need to install [Pipenv](https://docs.pipenv.org), then `pipenv install` in this repository folder.
+
+---
+
+To check that your files are workable, you can run
+
+```bash
+pipenv run python bin/build.py
+```
 
 ---
 
