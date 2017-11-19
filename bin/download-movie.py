@@ -7,17 +7,7 @@ import json
 import argparse
 from datetime import datetime, timedelta
 
-from lib import find_movie, get_trailers
-
-
-OMDB_API_KEY = os.getenv('OMDB_API_KEY', None)
-TMDB_API_KEY = os.getenv('TMDB_API_KEY', None)
-
-if not OMDB_API_KEY:
-    print(f'This tool requires an OMDB api key. If you do not have one, please visit <http://www.omdbapi.com/apikey.aspx>, then `export OMDB_API_KEY="your-key" pipenv run python {sys.argv[0]}`', file=sys.stderr)
-
-if not TMDB_API_KEY:
-    print(f'This tool requires a TMDB api key. If you do not have one, please visit <https://www.themoviedb.org>, log in and get the v3 API key, then `export TMDB_API_KEY="your-key" pipenv run python {sys.argv[0]}`', file=sys.stderr)
+from lib import find_movie, get_trailers, download_trailer, download_posters
 
 
 def parse_args():
@@ -35,9 +25,7 @@ def parse_args():
     return args
 
 
-def main():
-    args = parse_args()
-
+def main(args):
     movie = find_movie(args.title, args.year)
     trailers = list(get_trailers(movie['imdbID']))
 
@@ -79,4 +67,4 @@ def main():
         outfile.write('\n')
 
 if __name__ == '__main__':
-    main()
+    main(args=parse_args())
