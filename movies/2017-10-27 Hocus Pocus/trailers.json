@@ -1,0 +1,24 @@
+{
+  "trailers": [
+    {
+      "iso_639_1": "en",
+      "iso_3166_1": "US",
+      "key": "Oryofd_T-ng",
+      "name": "Hocus Pocus (1993)",
+      "site": "YouTube",
+      "size": 360,
+      "type": "Trailer",
+      "url": "https://www.youtube.com/watch?v=Oryofd_T-ng"
+    },
+    {
+      "iso_639_1": "en",
+      "iso_3166_1": "US",
+      "key": "OFm_2RyxXjQ",
+      "name": "Trailer",
+      "site": "YouTube",
+      "size": 720,
+      "type": "Trailer",
+      "url": "https://www.youtube.com/watch?v=OFm_2RyxXjQ"
+    }
+  ]
+}
