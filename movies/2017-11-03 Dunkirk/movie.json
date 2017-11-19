@@ -8,11 +8,13 @@
   "Director": "Christopher Nolan",
   "Writer": "Christopher Nolan",
   "Actors": "Fionn Whitehead, Damien Bonnard, Aneurin Barnard, Lee Armstrong",
-  "Plot": "Allied soldiers from Belgium, the British Empire and France are surrounded by the German Army, and evacuated during a fierce battle in World War II.",
+  "Plot":
+    "Allied soldiers from Belgium, the British Empire and France are surrounded by the German Army, and evacuated during a fierce battle in World War II.",
   "Language": "English, French, German",
   "Country": "UK, Netherlands, France, USA",
   "Awards": "1 win & 4 nominations.",
-  "Poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BN2YyZjQ0NTEtNzU5MS00NGZkLTg0MTEtYzJmMWY3MWRhZjM2XkEyXkFqcGdeQXVyMDA4NzMyOA@@._V1_SX300.jpg",
+  "Poster":
+    "https://images-na.ssl-images-amazon.com/images/M/MV5BN2YyZjQ0NTEtNzU5MS00NGZkLTg0MTEtYzJmMWY3MWRhZjM2XkEyXkFqcGdeQXVyMDA4NzMyOA@@._V1_SX300.jpg",
   "Ratings": [
     { "Source": "Internet Movie Database", "Value": "8.3/10" },
     { "Source": "Rotten Tomatoes", "Value": "92%" },
