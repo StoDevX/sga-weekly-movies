@@ -51,15 +51,16 @@ def load_showings_as_isoformat(folder_path):
 
 
 def find_posters(folder_path, url_root):
-    posters = [f for f in os.scandir(folder_path) if f.name.startswith('poster-')]
+    for f in os.scandir(os.path.join(folder_path, 'poster')):
+        if not (f.name.endswith('.jpg') or f.name.endswith('.png')):
+            continue
 
-    for f in posters:
         with Image.open(f.path) as img:
             width, height = img.size
 
         yield {
-            'url': f'{url_root}/{f.name}',
-            'filename': f.name,
+            'url': f'{url_root}/poster/{f.name}',
+            'filename': os.path.join('poster', f.name),
             'width': width,
             'height': height,
         }
