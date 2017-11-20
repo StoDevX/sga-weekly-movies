@@ -1,0 +1,24 @@
+{
+  "trailers": [
+    {
+      "iso_639_1": "en",
+      "iso_3166_1": "US",
+      "key": "eZbzbC9285I",
+      "name": "1",
+      "site": "YouTube",
+      "size": 720,
+      "type": "Trailer",
+      "url": "https://www.youtube.com/watch?v=eZbzbC9285I"
+    },
+    {
+      "iso_639_1": "en",
+      "iso_3166_1": "US",
+      "key": "sZwWCrFNfzQ",
+      "name": "Trailer",
+      "site": "YouTube",
+      "size": 480,
+      "type": "Trailer",
+      "url": "https://www.youtube.com/watch?v=sZwWCrFNfzQ"
+    }
+  ]
+}
