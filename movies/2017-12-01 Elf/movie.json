@@ -1,0 +1,40 @@
+{
+  "Title": "Elf",
+  "Year": "2003",
+  "Rated": "PG",
+  "Released": "07 Nov 2003",
+  "Runtime": "97 min",
+  "Genre": "Comedy, Family, Fantasy",
+  "Director": "Jon Favreau",
+  "Writer": "David Berenbaum",
+  "Actors": "Will Ferrell, James Caan, Bob Newhart, Edward Asner",
+  "Plot": "After inadvertently wreaking havoc on the elf community due to his ungainly size, a man raised as an elf at the North Pole is sent to the U.S. in search of his true identity.",
+  "Language": "English",
+  "Country": "USA, Germany",
+  "Awards": "2 wins & 7 nominations.",
+  "Poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMzUxNzkzMzQtYjIxZC00NzU0LThkYTQtZjNhNTljMTA1MDA1L2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SX300.jpg",
+  "Ratings": [
+    {
+      "Source": "Internet Movie Database",
+      "Value": "6.9/10"
+    },
+    {
+      "Source": "Rotten Tomatoes",
+      "Value": "84%"
+    },
+    {
+      "Source": "Metacritic",
+      "Value": "64/100"
+    }
+  ],
+  "Metascore": "64",
+  "imdbRating": "6.9",
+  "imdbVotes": "162,764",
+  "imdbID": "tt0319343",
+  "Type": "movie",
+  "DVD": "16 Nov 2004",
+  "BoxOffice": "$173,400,000",
+  "Production": "New Line Cinema",
+  "Website": "http://elfmovie.com/",
+  "Response": "True"
+}
