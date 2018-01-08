@@ -1,0 +1,54 @@
+{
+  "trailers": [
+    {
+      "iso_639_1": "en",
+      "iso_3166_1": "US",
+      "key": "haXvp8M9Cog",
+      "name": "Official Teaser Trailer: Announcement",
+      "site": "YouTube",
+      "size": 1080,
+      "type": "Teaser",
+      "url": "https://www.youtube.com/watch?v=haXvp8M9Cog"
+    },
+    {
+      "iso_639_1": "en",
+      "iso_3166_1": "US",
+      "key": "JUgbntoMyW8",
+      "name": "Trailer Tease",
+      "site": "YouTube",
+      "size": 1080,
+      "type": "Teaser",
+      "url": "https://www.youtube.com/watch?v=JUgbntoMyW8"
+    },
+    {
+      "iso_639_1": "en",
+      "iso_3166_1": "US",
+      "key": "dZOaI_Fn5o4",
+      "name": "Trailer 2",
+      "site": "YouTube",
+      "size": 1080,
+      "type": "Trailer",
+      "url": "https://www.youtube.com/watch?v=dZOaI_Fn5o4"
+    },
+    {
+      "iso_639_1": "en",
+      "iso_3166_1": "US",
+      "key": "gCcx85zbxz4",
+      "name": "Official Trailer",
+      "site": "YouTube",
+      "size": 1080,
+      "type": "Trailer",
+      "url": "https://www.youtube.com/watch?v=gCcx85zbxz4"
+    },
+    {
+      "iso_639_1": "en",
+      "iso_3166_1": "US",
+      "key": "uIyUWdqLnGc",
+      "name": "How Blade Runner 2049 Was Created Using Miniatures",
+      "site": "YouTube",
+      "size": 720,
+      "type": "Featurette",
+      "url": "https://www.youtube.com/watch?v=uIyUWdqLnGc"
+    }
+  ]
+}
