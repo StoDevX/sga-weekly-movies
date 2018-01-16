@@ -1,0 +1,40 @@
+{
+  "Title": "Wonder",
+  "Year": "2017",
+  "Rated": "PG",
+  "Released": "17 Nov 2017",
+  "Runtime": "113 min",
+  "Genre": "Drama, Family",
+  "Director": "Stephen Chbosky",
+  "Writer": "Stephen Chbosky (screenplay by), Steve Conrad (screenplay by), Jack Thorne (screenplay by), R.J. Palacio (based on the novel by)",
+  "Actors": "Jacob Tremblay, Owen Wilson, Izabela Vidovic, Julia Roberts",
+  "Plot": "Based on the New York Times bestseller, WONDER tells the incredibly inspiring and heartwarming story of August Pullman, a boy with facial differences who enters fifth grade, attending a mainstream elementary school for the first time.",
+  "Language": "English",
+  "Country": "USA, Hong Kong",
+  "Awards": "2 wins & 7 nominations.",
+  "Poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BYjFhOWY0OTgtNDkzMC00YWJkLTk1NGEtYWUxNjhmMmQ5ZjYyXkEyXkFqcGdeQXVyMjMxOTE0ODA@._V1_SX300.jpg",
+  "Ratings": [
+    {
+      "Source": "Internet Movie Database",
+      "Value": "8.1/10"
+    },
+    {
+      "Source": "Rotten Tomatoes",
+      "Value": "85%"
+    },
+    {
+      "Source": "Metacritic",
+      "Value": "66/100"
+    }
+  ],
+  "Metascore": "66",
+  "imdbRating": "8.1",
+  "imdbVotes": "13,512",
+  "imdbID": "tt2543472",
+  "Type": "movie",
+  "DVD": "N/A",
+  "BoxOffice": "$27,547,866",
+  "Production": "Lionsgate",
+  "Website": "http://www.wonder.movie",
+  "Response": "True"
+}
