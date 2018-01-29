@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-from datetime import datetime
+from datetime import datetime, date
 import json
 import os
 import re
@@ -21,6 +21,8 @@ def json_serialize(obj):
     """JSON serializer for objects not serializable by default json code"""
     if isinstance(obj, (datetime)):
         return obj.isoformat()
+    if isinstance(obj, (date)):
+        return obj.isoformat()
     raise TypeError("Type %s not serializable" % type(obj))
 
 
@@ -32,6 +34,7 @@ def load_movie_info(folder_path):
     del movie["imdbRating"]
     del movie["imdbVotes"]
     del movie["Poster"]
+    del movie["Response"]
 
     return movie
 
@@ -123,9 +126,12 @@ def main():
         posters = sorted(list(find_posters(folder.path, url_root)), key=lambda p: p['width'])
         trailers = list(find_trailers(folder.path, url_root))
 
+        movie = load_movie_info(folder.path)
+        movie['releaseDate'] = datetime.strptime(movie['Released'], '%d %b %Y').date()
+
         data = {
             'root': url_root,
-            'info': load_movie_info(folder.path),
+            'info': movie,
             'showings': list(load_showings_as_isoformat(folder.path)),
             'posters': posters,
             'posterColors': find_poster_colors(folder.path, posters),
