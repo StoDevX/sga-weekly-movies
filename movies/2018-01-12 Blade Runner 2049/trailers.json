@@ -4,7 +4,7 @@
       "iso_639_1": "en",
       "iso_3166_1": "US",
       "key": "haXvp8M9Cog",
-      "name": "Official Teaser Trailer: Announcement",
+      "name": "Announcement",
       "site": "YouTube",
       "size": 1080,
       "type": "Teaser",
@@ -46,9 +46,39 @@
       "key": "uIyUWdqLnGc",
       "name": "How Blade Runner 2049 Was Created Using Miniatures",
       "site": "YouTube",
-      "size": 720,
+      "size": 1080,
       "type": "Featurette",
       "url": "https://www.youtube.com/watch?v=uIyUWdqLnGc"
+    },
+    {
+      "iso_639_1": "en",
+      "iso_3166_1": "US",
+      "key": "UgsS3nhRRzQ",
+      "name": "2036: Nexus Dawn",
+      "site": "YouTube",
+      "size": 1080,
+      "type": "Featurette",
+      "url": "https://www.youtube.com/watch?v=UgsS3nhRRzQ"
+    },
+    {
+      "iso_639_1": "en",
+      "iso_3166_1": "US",
+      "key": "BBsjZgu7T2U",
+      "name": "Time to Live",
+      "site": "YouTube",
+      "size": 1080,
+      "type": "Featurette",
+      "url": "https://www.youtube.com/watch?v=BBsjZgu7T2U"
+    },
+    {
+      "iso_639_1": "en",
+      "iso_3166_1": "US",
+      "key": "BFPb308r6u4",
+      "name": "Ridley Scott Featurette",
+      "site": "YouTube",
+      "size": 1080,
+      "type": "Featurette",
+      "url": "https://www.youtube.com/watch?v=BFPb308r6u4"
     }
   ]
 }
