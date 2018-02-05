@@ -1,11 +1,10 @@
 #!/usr/bin/env python3
 
-import os
 import json
 import argparse
 from datetime import datetime, timedelta
-
 from lib import find_movie, get_trailers, download_trailer, download_posters
+from pathlib import Path
 
 
 def parse_args():
@@ -27,25 +26,25 @@ def main(args):
     movie = find_movie(args.title, args.year)
     trailers = list(get_trailers(movie['imdbID']))
 
-    movie_dir = os.path.join('movies', f'{args.date.isoformat()} {args.title}')
-    os.makedirs(movie_dir, exist_ok=True)
+    movie_dir = Path(__file__).parent / 'movies' / f'{args.date.isoformat()} {args.title}'
+    movie_dir.mkdir(parents=True, exist_ok=True)
 
-    movie_file = os.path.join(movie_dir, 'movie.json')
+    movie_file = movie_dir / 'movie.json'
     with open(movie_file, 'w', encoding='utf-8') as outfile:
         json.dump(movie, outfile, ensure_ascii=False, indent=2)
         outfile.write('\n')
 
     download_posters(movie, movie_dir)
 
-    trailers_file = os.path.join(movie_dir, 'trailers.json')
+    trailers_file = movie_dir / 'trailers.json'
     with open(trailers_file, 'w', encoding='utf-8') as outfile:
         json.dump({'trailers': trailers}, outfile, ensure_ascii=False, indent=2)
         outfile.write('\n')
 
     for trailer in trailers:
-        download_trailer(trailer, os.path.join(movie_dir, 'trailers'))
+        download_trailer(trailer, movie_dir / 'trailers')
 
-    showings_file = os.path.join(movie_dir, 'showings.json')
+    showings_file = movie_dir / 'showings.json'
     with open(showings_file, 'w', encoding='utf-8') as outfile:
         showings = {
             'showings': [
