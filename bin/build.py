@@ -134,8 +134,10 @@ def main():
             'root': url_root,
             'info': movie,
             'showings': list(load_showings_as_isoformat(folder.path)),
-            'posters': posters,
-            'posterColors': find_poster_colors(folder.path, posters),
+            'posters': {
+                'sizes': all_posters,
+                'colors': find_poster_colors(folder.path, all_posters),
+            },
             'trailers': trailers,
         }
 
