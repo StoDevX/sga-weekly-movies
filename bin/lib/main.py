@@ -1,14 +1,13 @@
 import json
 from datetime import timedelta
 from pathlib import Path
-from .download_trailer import download_trailer
-from .trailers import get_trailers
-from .download_posters import download_posters
-from .movies import find_movie
+from .trailers import get_trailers, download_trailer
+from .posters import download_posters
+from .movies import search_for_movie
 
 
 def get_movie(*, title, year, date):
-    movie = find_movie(title, year)
+    movie = search_for_movie(title, year)
     if not movie:
         return
 

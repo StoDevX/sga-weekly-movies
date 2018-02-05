@@ -14,11 +14,10 @@ from .keys import OMDB_API_KEY
 def get_movie(imdb_id):
     params = {'i': imdb_id, 'apiKey': OMDB_API_KEY, 'plot': 'short'}
     r = requests.get('http://www.omdbapi.com/', params=params)
-    results = r.json()
-    return results
+    return r.json()
 
 
-def find_movie(title, year):
+def search_for_movie(title: str, year: int):
     params = {'s': title, 'apiKey': OMDB_API_KEY, 'type': 'movie'}
     if year:
         params['y'] = year

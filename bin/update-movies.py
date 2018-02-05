@@ -4,7 +4,9 @@ import sys
 import json
 from pathlib import Path
 
-from .lib import get_movie, get_trailers, download_posters, download_trailer
+from lib.movies import get_movie
+from lib.posters import download_posters
+from lib.trailers import get_trailers, download_trailer
 
 
 def update_movie_info(movie, movie_dir: Path):
@@ -22,14 +24,6 @@ def update_movie_info(movie, movie_dir: Path):
     for trailer in trailers:
         download_trailer(trailer, movie_dir / 'trailers')
 
-    # with open(os.path.join(movie_dir, 'showings.json'), 'r', encoding='utf-8') as infile:
-    #     showings = json.load(infile)
-    # for showing in showings['showings']:
-    #     if '/' in showing['date']:
-    #         showing['date'] = showing['date'].replace('/', '-')
-    # with open(os.path.join(movie_dir, 'showings.json'), 'w', encoding='utf-8') as outfile:
-    #     json.dump(showings, outfile)
-
 
 def main(movie_info_files):
     for filepath in movie_info_files:
@@ -41,5 +35,5 @@ def main(movie_info_files):
 
 
 if __name__ == '__main__':
-    current = Path(__file__).parent / 'movies'
+    current = Path(__file__).parent.parent / 'movies'
     main(sys.argv[1:] or current.glob('*/movie.json'))
