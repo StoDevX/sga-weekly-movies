@@ -2,8 +2,8 @@ venv/
 .DS_Store
 node_modules/
 *.pyc
+.mypy_cache/
 movies/**/index.json
 archive.json
 next.json
 archive.json
-.mypy_cache/

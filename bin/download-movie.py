@@ -1,8 +1,6 @@
 #!/usr/bin/env python3
 
 import os
-import re
-import sys
 import json
 import argparse
 from datetime import datetime, timedelta
@@ -19,8 +17,8 @@ def parse_args():
     parser.add_argument('--year', default=None, help='the year the movie was released')
 
     args = parser.parse_args()
-    args.date = datetime.strptime(args.date, '%Y-%m-%d')
-    args.date = args.date.date()
+
+    args.date = datetime.strptime(args.date, '%Y-%m-%d').date()
 
     return args
 
@@ -65,6 +63,7 @@ def main(args):
         }
         json.dump(showings, outfile, ensure_ascii=False, indent=2)
         outfile.write('\n')
+
 
 if __name__ == '__main__':
     main(args=parse_args())

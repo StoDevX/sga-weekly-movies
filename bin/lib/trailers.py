@@ -1,17 +1,19 @@
 import requests
-
+import sys
 from .keys import TMDB_API_KEY
 
-def get_trailers(imdbID):
+
+def get_trailers(imdb_id):
     params = {'language': 'en-US', 'api_key': TMDB_API_KEY}
-    url = f'https://api.themoviedb.org/3/movie/{imdbID}/videos'
+    url = f'https://api.themoviedb.org/3/movie/{imdb_id}/videos'
     r = requests.get(url, params=params)
 
     data = r.json()
 
     if 'status_message' in data:
         if data['status_code'] is 34:
-            print(f'The imdbID {imdbID} was not present in TMDB\'s db. Continuing without trailers.', file=sys.stderr)
+            print(f'The IMDB ID {imdb_id} was not present in TMDB\'s db. Continuing without trailers.',
+                  file=sys.stderr)
             return []
         else:
             print('TMDB API error:', file=sys.stderr)

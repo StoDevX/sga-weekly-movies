@@ -1,11 +1,9 @@
 #!/usr/bin/env python3
 
 import os
-import re
 import sys
 import json
 import glob
-from datetime import datetime, timedelta
 
 from lib import get_movie, get_trailers, download_posters, download_trailer
 

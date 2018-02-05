@@ -3,10 +3,7 @@
 import glob
 import json
 import sys
-import re
 import os
-
-import requests
 
 from lib import download_trailer
 
