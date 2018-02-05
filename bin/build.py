@@ -35,6 +35,8 @@ def load_movie_info(folder_path):
     del movie["imdbVotes"]
     del movie["Poster"]
     del movie["Response"]
+    movie['ReleaseDate'] = datetime.strptime(movie['Released'], '%d %b %Y').date()
+    movie['Genres'] = movie['Genre'].split(', ') if 'Genre' in movie else []
 
     return movie
 
@@ -90,6 +92,7 @@ def find_trailers(folder_path, url_root):
         trailer_info = json.load(infile)
 
     for trailer in trailer_info['trailers']:
+        print(f'processing {trailer["url"]}', file=sys.stderr)
         thumbnails = list(index_trailer_thumbnails(folder_path, trailer['key'], url_root))
         del trailer['site']
         del trailer['size']
@@ -98,18 +101,27 @@ def find_trailers(folder_path, url_root):
         del trailer['iso_639_1']
         del trailer['iso_3166_1']
         trailer['thumbnails'] = thumbnails
+        trailer['colors'] = find_trailer_colors(folder_path, thumbnails)
 
         yield trailer
 
 
-def find_poster_colors(folder_path, posters):
-    smallest = posters[0]
-    colors = ColorThief(os.path.join(folder_path, smallest['filename']))
-
+def find_colors(file_path):
+    colors = ColorThief(file_path)
     return {
         'dominant': colors.get_color(quality=1),
         'palette': colors.get_palette(color_count=6),
     }
+
+
+def find_trailer_colors(folder_path, thumbs):
+    smallest = thumbs[0]
+    return find_colors(os.path.join(folder_path, smallest['filename']))
+
+
+def find_poster_colors(folder_path, posters):
+    smallest = posters[0]
+    return find_colors(os.path.join(folder_path, smallest['filename']))
 
 
 def main():
@@ -123,18 +135,19 @@ def main():
 
         url_root = f'{BASE}/movies/{urllib.parse.quote(folder.name)}'
 
-        posters = sorted(list(find_posters(folder.path, url_root)), key=lambda p: p['width'])
+        all_posters = sorted(list(find_posters(folder.path, url_root)), key=lambda p: p['width'])
         trailers = list(find_trailers(folder.path, url_root))
 
         movie = load_movie_info(folder.path)
-        movie['releaseDate'] = datetime.strptime(movie['Released'], '%d %b %Y').date()
 
         data = {
             'root': url_root,
             'info': movie,
             'showings': list(load_showings_as_isoformat(folder.path)),
-            'posters': posters,
-            'posterColors': find_poster_colors(folder.path, posters),
+            'poster': {
+                'sizes': all_posters,
+                'colors': find_poster_colors(folder.path, all_posters),
+            },
             'trailers': trailers,
         }
 

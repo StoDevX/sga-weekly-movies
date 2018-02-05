@@ -7,7 +7,7 @@ install:
   - pip3 install pipenv
   - pipenv install
 
-script: pipenv run python bin/build.py
+script: pipenv run bin/build.py
 
 after_success:
   - rm .gitignore
