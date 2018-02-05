@@ -100,18 +100,27 @@ def find_trailers(folder_path, url_root):
         del trailer['iso_639_1']
         del trailer['iso_3166_1']
         trailer['thumbnails'] = thumbnails
+        trailer['colors'] = find_trailer_colors(folder_path, thumbnails)
 
         yield trailer
 
 
-def find_poster_colors(folder_path, posters):
-    smallest = posters[0]
-    colors = ColorThief(os.path.join(folder_path, smallest['filename']))
-
+def find_colors(file_path):
+    colors = ColorThief(file_path)
     return {
         'dominant': colors.get_color(quality=1),
         'palette': colors.get_palette(color_count=6),
     }
+
+
+def find_trailer_colors(folder_path, thumbs):
+    smallest = thumbs[0]
+    return find_colors(os.path.join(folder_path, smallest['filename']))
+
+
+def find_poster_colors(folder_path, posters):
+    smallest = posters[0]
+    return find_colors(os.path.join(folder_path, smallest['filename']))
 
 
 def main():
@@ -125,7 +134,7 @@ def main():
 
         url_root = f'{BASE}/movies/{urllib.parse.quote(folder.name)}'
 
-        posters = sorted(list(find_posters(folder.path, url_root)), key=lambda p: p['width'])
+        all_posters = sorted(list(find_posters(folder.path, url_root)), key=lambda p: p['width'])
         trailers = list(find_trailers(folder.path, url_root))
 
         movie = load_movie_info(folder.path)
