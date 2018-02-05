@@ -35,6 +35,7 @@ def load_movie_info(folder_path):
     del movie["imdbVotes"]
     del movie["Poster"]
     del movie["Response"]
+    movie['ReleaseDate'] = datetime.strptime(movie['Released'], '%d %b %Y').date()
 
     return movie
 
@@ -127,7 +128,6 @@ def main():
         trailers = list(find_trailers(folder.path, url_root))
 
         movie = load_movie_info(folder.path)
-        movie['releaseDate'] = datetime.strptime(movie['Released'], '%d %b %Y').date()
 
         data = {
             'root': url_root,
