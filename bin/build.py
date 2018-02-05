@@ -36,6 +36,7 @@ def load_movie_info(folder_path):
     del movie["Poster"]
     del movie["Response"]
     movie['ReleaseDate'] = datetime.strptime(movie['Released'], '%d %b %Y').date()
+    movie['Genres'] = movie['Genre'].split(', ') if 'Genre' in movie else []
 
     return movie
 
