@@ -13,7 +13,7 @@ def get_movie(*, title, year, date):
 
     trailers = list(get_trailers(movie['imdbID']))
 
-    movie_dir = Path(__file__).parent.parent / 'movies' / f'{date.isoformat()} {title}'
+    movie_dir = Path(__file__).parent.parent.parent / 'movies' / f'{date.isoformat()} {title}'
     movie_dir.mkdir(parents=True, exist_ok=True)
 
     movie_file = movie_dir / 'movie.json'
