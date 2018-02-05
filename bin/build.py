@@ -92,6 +92,7 @@ def find_trailers(folder_path, url_root):
         trailer_info = json.load(infile)
 
     for trailer in trailer_info['trailers']:
+        print(f'processing {trailer["url"]}')
         thumbnails = list(index_trailer_thumbnails(folder_path, trailer['key'], url_root))
         del trailer['site']
         del trailer['size']
