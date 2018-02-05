@@ -2,7 +2,7 @@
 
 import argparse
 from datetime import datetime
-from lib import get_movie_from_args
+from lib import get_movie
 
 
 def main():
@@ -17,7 +17,7 @@ def main():
 
     args.date = datetime.strptime(args.date, '%Y-%m-%d').date()
 
-    get_movie_from_args(args=args)
+    get_movie(title=args['title'], date=args['date'], year=args['year'])
 
 
 if __name__ == '__main__':

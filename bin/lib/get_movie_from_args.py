@@ -7,14 +7,14 @@ from .download_posters import download_posters
 from .movies import find_movie
 
 
-def get_movie(args):
-    movie = find_movie(args.title, args.year)
+def get_movie(*, title, year, date):
+    movie = find_movie(title, year)
     if not movie:
         return
 
     trailers = list(get_trailers(movie['imdbID']))
 
-    movie_dir = Path(__file__).parent.parent / 'movies' / f'{args.date.isoformat()} {args.title}'
+    movie_dir = Path(__file__).parent.parent / 'movies' / f'{date.isoformat()} {title}'
     movie_dir.mkdir(parents=True, exist_ok=True)
 
     movie_file = movie_dir / 'movie.json'
@@ -37,12 +37,12 @@ def get_movie(args):
         showings = {
             'showings': [
                 {
-                    'date': args.date.isoformat(),
+                    'date': date.isoformat(),
                     'times': ['17:00', '19:30', '22:00'],
                     'location': 'Viking Theater',
                 },
                 {
-                    'date': (args.date + timedelta(days=1)).isoformat(),
+                    'date': (date + timedelta(days=1)).isoformat(),
                     'times': ['17:00', '19:30', '22:00'],
                     'location': 'Viking Theater',
                 },

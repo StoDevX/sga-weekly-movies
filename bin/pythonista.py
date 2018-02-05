@@ -2,9 +2,8 @@
 
 import sys
 import dialogs
-from collections import namedtuple
 from datetime import date, timedelta
-from lib import get_movie_from_args
+from lib import get_movie
 
 
 def main():
@@ -30,10 +29,8 @@ def main():
         sys.exit(0)
 
     args['date'] = args['date'].date()
-    argtuple = namedtuple('args', 'title, date, year')
-    parsed = argtuple(title=args['title'], date=args['date'], year=None)
 
-    get_movie_from_args(args=parsed)
+    get_movie(title=args['title'], date=args['date'], year=None)
 
 
 if __name__ == '__main__':
