@@ -1,6 +1,6 @@
 import re
 import os
-
+from pathlib import Path
 from .download_file import download_file
 
 sizes = [
@@ -13,14 +13,14 @@ sizes = [
 ]
 
 
-def download_posters(movie_info, dest_dir):
+def download_posters(movie_info, dest_dir: Path):
     url = re.sub(r'_SX300\.jpg$', '_SX$1.jpg', movie_info['Poster'])
 
-    poster_dir = os.path.join(dest_dir, 'poster')
-    os.makedirs(poster_dir, exist_ok=True)
+    poster_dir = dest_dir / 'poster'
+    poster_dir.mkdir(exist_ok=True, parents=True)
 
     for size in sizes:
-        dest_path = os.path.join(poster_dir, f'{size}.jpg')
+        dest_path = poster_dir / f'{size}.jpg'
         if os.path.isfile(dest_path):
             print(f'skipping poster/{size}.jpg because it exists')
             continue
