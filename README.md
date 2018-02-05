@@ -162,5 +162,5 @@ To add a new movie:
 If you need to check that your files are workable, you can run
 
 ```bash
-pipenv run python bin/build.py
+pipenv run bin/build.py
 ```
