@@ -6,3 +6,4 @@ movies/**/index.json
 archive.json
 next.json
 archive.json
+.mypy_cache/
