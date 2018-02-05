@@ -17,7 +17,7 @@ def main():
 
     args.date = datetime.strptime(args.date, '%Y-%m-%d').date()
 
-    get_movie(title=args['title'], date=args['date'], year=args['year'])
+    get_movie(title=args.title, date=args.date, year=args.year)
 
 
 if __name__ == '__main__':
