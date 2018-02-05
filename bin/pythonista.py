@@ -32,6 +32,8 @@ def main():
 
     get_movie(title=args['title'], date=args['date'], year=None)
 
+    print('done!')
+
 
 if __name__ == '__main__':
     main()
