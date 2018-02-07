@@ -13,6 +13,15 @@ from PIL import Image
 BASE = 'https://stodevx.github.io/sga-weekly-movies'
 
 
+def dedupe(lst, key=lambda x: x['width']):
+    """dedupe([{'w': 1}], key=lambda x: x['w'])"""
+    seen = set()
+    for item in lst:
+        if key(item) not in seen:
+            yield item
+        seen.add(key(item))
+
+
 def now():
     return datetime.now(tz=pytz.timezone('America/Winnipeg'))
 
@@ -93,7 +102,8 @@ def find_trailers(folder_path, url_root):
 
     for trailer in trailer_info['trailers']:
         print(f'processing {trailer["url"]}', file=sys.stderr)
-        thumbnails = list(index_trailer_thumbnails(folder_path, trailer['key'], url_root))
+        thumbnails = dedupe(index_trailer_thumbnails(folder_path, trailer['key'], url_root))
+        thumbnails = list(thumbnails)
         del trailer['site']
         del trailer['size']
         del trailer['key']
@@ -135,10 +145,10 @@ def main():
 
         url_root = f'{BASE}/movies/{urllib.parse.quote(folder.name)}'
 
-        all_posters = sorted(list(find_posters(folder.path, url_root)), key=lambda p: p['width'])
-        trailers = list(find_trailers(folder.path, url_root))
-
         movie = load_movie_info(folder.path)
+        all_posters = sorted(dedupe(find_posters(folder.path, url_root)),
+                             key=lambda p: p['width'])
+        all_trailers = list(find_trailers(folder.path, url_root))
 
         data = {
             'root': url_root,
@@ -148,7 +158,7 @@ def main():
                 'sizes': all_posters,
                 'colors': find_poster_colors(folder.path, all_posters),
             },
-            'trailers': trailers,
+            'trailers': all_trailers,
         }
 
         entries[folder.name] = data
