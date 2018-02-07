@@ -3,7 +3,6 @@
 from datetime import datetime, date
 import json
 import os
-import sys
 import urllib.parse
 
 import pytz
@@ -101,7 +100,7 @@ def find_trailers(folder_path, url_root):
         trailer_info = json.load(infile)
 
     for trailer in trailer_info['trailers']:
-        print(f'processing {trailer["url"]}', file=sys.stderr)
+        print(f'processing {trailer["url"]}')
         thumbnails = dedupe(index_trailer_thumbnails(folder_path, trailer['key'], url_root))
         thumbnails = list(thumbnails)
         del trailer['site']
@@ -141,7 +140,7 @@ def main():
         if not folder.is_dir():
             continue
 
-        print(f'processing {folder.name}', file=sys.stderr)
+        print(f'processing {folder.name}')
 
         url_root = f'{BASE}/movies/{urllib.parse.quote(folder.name)}'
 

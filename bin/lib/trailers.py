@@ -90,7 +90,7 @@ def download_trailer(trailer_info, dest_folder: Path):
                              dest=dest_folder / f'{size}.jpg',
                              size=size)
     else:
-        print(f'Unknown trailer site "{trailer_info["site"]}"; skipping thumbnail download', file=sys.stderr)
+        print(f'Unknown trailer site "{trailer_info["site"]}"; skipping thumbnail download')
 
 
 def get_trailers(imdb_id):
@@ -102,16 +102,15 @@ def get_trailers(imdb_id):
 
     if 'status_message' in data:
         if data['status_code'] is 34:
-            print(f'The IMDB ID {imdb_id} was not present in TMDB\'s db. Continuing without trailers.',
-                  file=sys.stderr)
+            print(f'The IMDB ID {imdb_id} was not present in TMDB\'s db. Continuing without trailers.')
             return []
         else:
-            print('TMDB API error:', file=sys.stderr)
-            print(data['status_message'], file=sys.stderr)
+            print('TMDB API error:')
+            print(data['status_message'])
             sys.exit(1)
 
     if 'results' not in data:
-        print('No trailers found! Continuing without them.', file=sys.stderr)
+        print('No trailers found! Continuing without them.')
         return []
 
     for trailer in data['results']:
