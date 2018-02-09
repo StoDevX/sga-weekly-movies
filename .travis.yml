@@ -11,7 +11,7 @@ install:
 script: pipenv run bin/build.py
 
 after_success:
-  - rm .gitignore
+  - rm -rf .* bin/ LICENSE CODE_OF_CONDUCT.md Pipfile*
 
 deploy:
   provider: pages
