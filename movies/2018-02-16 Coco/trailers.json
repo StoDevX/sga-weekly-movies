@@ -1,0 +1,94 @@
+{
+  "trailers": [
+    {
+      "iso_639_1": "en",
+      "iso_3166_1": "US",
+      "key": "zNCz4mQzfEI",
+      "name": "Official US Teaser Trailer",
+      "site": "YouTube",
+      "size": 1080,
+      "type": "Teaser",
+      "url": "https://www.youtube.com/watch?v=zNCz4mQzfEI"
+    },
+    {
+      "iso_639_1": "en",
+      "iso_3166_1": "US",
+      "key": "xlnPHQ3TLX8",
+      "name": "Official US Trailer",
+      "site": "YouTube",
+      "size": 1080,
+      "type": "Trailer",
+      "url": "https://www.youtube.com/watch?v=xlnPHQ3TLX8"
+    },
+    {
+      "iso_639_1": "en",
+      "iso_3166_1": "US",
+      "key": "bvomHFZO0mk",
+      "name": "“Find Your Voice” Trailer",
+      "site": "YouTube",
+      "size": 1080,
+      "type": "Trailer",
+      "url": "https://www.youtube.com/watch?v=bvomHFZO0mk"
+    },
+    {
+      "iso_639_1": "en",
+      "iso_3166_1": "US",
+      "key": "Rvr68u6k5sI",
+      "name": "Official Final Trailer",
+      "site": "YouTube",
+      "size": 1080,
+      "type": "Trailer",
+      "url": "https://www.youtube.com/watch?v=Rvr68u6k5sI"
+    },
+    {
+      "iso_639_1": "en",
+      "iso_3166_1": "US",
+      "key": "TO_CrQbRdbo",
+      "name": "Battle of the Bands",
+      "site": "YouTube",
+      "size": 1080,
+      "type": "Clip",
+      "url": "https://www.youtube.com/watch?v=TO_CrQbRdbo"
+    },
+    {
+      "iso_639_1": "en",
+      "iso_3166_1": "US",
+      "key": "yg8116aeD7E",
+      "name": "Un Poco Loco",
+      "site": "YouTube",
+      "size": 1080,
+      "type": "Clip",
+      "url": "https://www.youtube.com/watch?v=yg8116aeD7E"
+    },
+    {
+      "iso_639_1": "en",
+      "iso_3166_1": "US",
+      "key": "n3umjh6xYok",
+      "name": "Clean Up Your Act",
+      "site": "YouTube",
+      "size": 1080,
+      "type": "Clip",
+      "url": "https://www.youtube.com/watch?v=n3umjh6xYok"
+    },
+    {
+      "iso_639_1": "en",
+      "iso_3166_1": "US",
+      "key": "di2bCDqa_Ro",
+      "name": "Not Like the Rest",
+      "site": "YouTube",
+      "size": 1080,
+      "type": "Clip",
+      "url": "https://www.youtube.com/watch?v=di2bCDqa_Ro"
+    },
+    {
+      "iso_639_1": "en",
+      "iso_3166_1": "US",
+      "key": "dPw0J6Kaj04",
+      "name": "Facts About Coco",
+      "site": "YouTube",
+      "size": 1080,
+      "type": "Featurette",
+      "url": "https://www.youtube.com/watch?v=dPw0J6Kaj04"
+    }
+  ]
+}
