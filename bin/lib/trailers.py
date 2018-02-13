@@ -24,13 +24,13 @@ youtube_dimensions = {
 non_letterboxed_yt_thumbs = ['full', 'mq']
 
 
-def resize_thumbnail(*, src: str, dest: str, size: str):
-    img = Image.open(src)
+def resize_thumbnail(*, src: Path, dest: Path, size: str):
+    img = Image.open(str(src))
     before_width, before_height = img.size
     img.thumbnail(size=youtube_dimensions[size], resample=Image.LANCZOS)
     after_width, after_height = img.size
     if after_width != before_width and after_height != before_height:
-        img.save(dest)
+        img.save(str(dest))
 
 
 def ytimg(video_id: str, size: str):
