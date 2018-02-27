@@ -1,0 +1,40 @@
+{
+  "Title": "The Disaster Artist",
+  "Year": "2017",
+  "Rated": "R",
+  "Released": "08 Dec 2017",
+  "Runtime": "104 min",
+  "Genre": "Biography, Comedy, Drama",
+  "Director": "James Franco",
+  "Writer": "Scott Neustadter (screenplay by), Michael H. Weber (screenplay by), Greg Sestero (based on the book \"The Disaster Artist: My Life Inside The Room,  the Greatest Bad Movie Ever Made\" by), Tom Bissell (based on the book \"The Disaster Artist: My Life Inside The Room,  the Greatest Bad Movie Ever Made\" by)",
+  "Actors": "Dave Franco, James Franco, Seth Rogen, Ari Graynor",
+  "Plot": "When Greg Sestero, an aspiring film actor, meets the weird and mysterious Tommy Wiseau in an acting class, they form a unique friendship and travel to Hollywood to make their dreams come true.",
+  "Language": "English",
+  "Country": "USA",
+  "Awards": "Nominated for 1 Oscar. Another 22 wins & 61 nominations.",
+  "Poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BOGNkMzliMGMtMDI5Ni00OTZkLTgyMTYtNzk5ZTY1NjVhYjVmXkEyXkFqcGdeQXVyNTAzMTY4MDA@._V1_SX300.jpg",
+  "Ratings": [
+    {
+      "Source": "Internet Movie Database",
+      "Value": "7.8/10"
+    },
+    {
+      "Source": "Rotten Tomatoes",
+      "Value": "91%"
+    },
+    {
+      "Source": "Metacritic",
+      "Value": "76/100"
+    }
+  ],
+  "Metascore": "76",
+  "imdbRating": "7.8",
+  "imdbVotes": "45,796",
+  "imdbID": "tt3521126",
+  "Type": "movie",
+  "DVD": "13 Mar 2018",
+  "BoxOffice": "N/A",
+  "Production": "A24",
+  "Website": "http://disasterartist.movie/",
+  "Response": "True"
+}

@@ -1,0 +1,40 @@
+{
+  "Title": "The Florida Project",
+  "Year": "2017",
+  "Rated": "R",
+  "Released": "10 Nov 2017",
+  "Runtime": "111 min",
+  "Genre": "Drama",
+  "Director": "Sean Baker",
+  "Writer": "Sean Baker, Chris Bergoch",
+  "Actors": "Brooklynn Prince, Christopher Rivera, Aiden Malik, Josie Olivo",
+  "Plot": "Set over one summer, the film follows precocious six-year-old Moonee as she courts mischief and adventure with her ragtag playmates and bonds with her rebellious but caring mother, all while living in the shadows of Walt Disney World.",
+  "Language": "English, Spanish, Portuguese",
+  "Country": "USA",
+  "Awards": "Nominated for 1 Oscar. Another 52 wins & 88 nominations.",
+  "Poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMjg4ZmY1MmItMjFjOS00ZTg2LWJjNDYtNDM2YmM2NzhiNmZhXkEyXkFqcGdeQXVyNTAzMTY4MDA@._V1_SX300.jpg",
+  "Ratings": [
+    {
+      "Source": "Internet Movie Database",
+      "Value": "7.8/10"
+    },
+    {
+      "Source": "Rotten Tomatoes",
+      "Value": "96%"
+    },
+    {
+      "Source": "Metacritic",
+      "Value": "92/100"
+    }
+  ],
+  "Metascore": "92",
+  "imdbRating": "7.8",
+  "imdbVotes": "16,372",
+  "imdbID": "tt5649144",
+  "Type": "movie",
+  "DVD": "20 Feb 2018",
+  "BoxOffice": "$5,412,775",
+  "Production": "A24 Films",
+  "Website": "http://floridaproject.movie/",
+  "Response": "True"
+}
