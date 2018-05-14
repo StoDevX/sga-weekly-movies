@@ -142,7 +142,7 @@ A few things to note:
 - Inside the `posters` object, you get a selection of poster sizes, as well as a mapping of the poster colors
 - Similarly, each trailer comes with a selection of thumbnails and the dominant colors of that trailer
 
-## Contibuting
+## Contributing
 To add a new movie:
 
 1. Get an OMDB API key: http://www.omdbapi.com/apikey.aspx
