@@ -24,6 +24,8 @@ def search_for_movie(title: str, year: int):
 
     r = requests.get('http://www.omdbapi.com/', params=params)
     results = r.json()
+    
+    print(results)
 
     if is_pythonista:
         options = [{
