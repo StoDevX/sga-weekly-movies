@@ -1,0 +1,40 @@
+{
+  "Title": "Black Panther",
+  "Year": "2018",
+  "Rated": "PG-13",
+  "Released": "16 Feb 2018",
+  "Runtime": "134 min",
+  "Genre": "Action, Adventure, Sci-Fi",
+  "Director": "Ryan Coogler",
+  "Writer": "Ryan Coogler, Joe Robert Cole, Stan Lee (based on the Marvel Comics by), Jack Kirby (based on the Marvel Comics by)",
+  "Actors": "Chadwick Boseman, Michael B. Jordan, Lupita Nyong'o, Danai Gurira",
+  "Plot": "T'Challa, the King of Wakanda, rises to the throne in the isolated, technologically advanced African nation, but his claim is challenged by a vengeful outsider who was a childhood victim of T'Challa's father's mistake.",
+  "Language": "Swahili, Nama, English, Xhosa, Korean",
+  "Country": "USA",
+  "Awards": "14 nominations.",
+  "Poster": "https://ia.media-imdb.com/images/M/MV5BMTg1MTY2MjYzNV5BMl5BanBnXkFtZTgwMTc4NTMwNDI@._V1_SX300.jpg",
+  "Ratings": [
+    {
+      "Source": "Internet Movie Database",
+      "Value": "7.7/10"
+    },
+    {
+      "Source": "Rotten Tomatoes",
+      "Value": "96%"
+    },
+    {
+      "Source": "Metacritic",
+      "Value": "88/100"
+    }
+  ],
+  "Metascore": "88",
+  "imdbRating": "7.7",
+  "imdbVotes": "247,680",
+  "imdbID": "tt1825683",
+  "Type": "movie",
+  "DVD": "N/A",
+  "BoxOffice": "$501,105,037",
+  "Production": "Marvel Studios",
+  "Website": "https://www.facebook.com/BlackPantherMovie/",
+  "Response": "True"
+}
