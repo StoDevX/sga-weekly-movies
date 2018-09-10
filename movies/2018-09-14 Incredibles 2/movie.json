@@ -1,0 +1,40 @@
+{
+  "Title": "Incredibles 2",
+  "Year": "2018",
+  "Rated": "PG",
+  "Released": "15 Jun 2018",
+  "Runtime": "118 min",
+  "Genre": "Animation, Action, Adventure",
+  "Director": "Brad Bird",
+  "Writer": "Brad Bird",
+  "Actors": "Craig T. Nelson, Holly Hunter, Sarah Vowell, Huck Milner",
+  "Plot": "Bob Parr (Mr. Incredible) is left to care for the kids while Helen (Elastigirl) is out saving the world.",
+  "Language": "English",
+  "Country": "USA",
+  "Awards": "N/A",
+  "Poster": "https://m.media-amazon.com/images/M/MV5BMTEzNzY0OTg0NTdeQTJeQWpwZ15BbWU4MDU3OTg3MjUz._V1_SX300.jpg",
+  "Ratings": [
+    {
+      "Source": "Internet Movie Database",
+      "Value": "8.1/10"
+    },
+    {
+      "Source": "Rotten Tomatoes",
+      "Value": "93%"
+    },
+    {
+      "Source": "Metacritic",
+      "Value": "80/100"
+    }
+  ],
+  "Metascore": "80",
+  "imdbRating": "8.1",
+  "imdbVotes": "91,400",
+  "imdbID": "tt3606756",
+  "Type": "movie",
+  "DVD": "N/A",
+  "BoxOffice": "N/A",
+  "Production": "Disney/Pixar",
+  "Website": "http://movies.disney.com/the-incredibles-2",
+  "Response": "True"
+}
