@@ -1,0 +1,40 @@
+{
+  "Title": "Ocean's Eight",
+  "Year": "2018",
+  "Rated": "PG-13",
+  "Released": "08 Jun 2018",
+  "Runtime": "110 min",
+  "Genre": "Action, Comedy, Crime",
+  "Director": "Gary Ross",
+  "Writer": "Gary Ross (screenplay by), Olivia Milch (screenplay by), Gary Ross (story by), George Clayton Johnson (based upon characters created by), Jack Golden Russell (based upon characters created by)",
+  "Actors": "Sandra Bullock, Griffin Dunne, Deidre Goodwin, Daniella Rabbani",
+  "Plot": "Debbie Ocean gathers an all-female crew to attempt an impossible heist at New York City's yearly Met Gala.",
+  "Language": "English, German, French, Chinese",
+  "Country": "USA",
+  "Awards": "N/A",
+  "Poster": "https://m.media-amazon.com/images/M/MV5BMjAyNDEyMzc4Ml5BMl5BanBnXkFtZTgwMjEzNjM0NTM@._V1_SX300.jpg",
+  "Ratings": [
+    {
+      "Source": "Internet Movie Database",
+      "Value": "6.3/10"
+    },
+    {
+      "Source": "Rotten Tomatoes",
+      "Value": "68%"
+    },
+    {
+      "Source": "Metacritic",
+      "Value": "61/100"
+    }
+  ],
+  "Metascore": "61",
+  "imdbRating": "6.3",
+  "imdbVotes": "57,125",
+  "imdbID": "tt5164214",
+  "Type": "movie",
+  "DVD": "11 Sep 2018",
+  "BoxOffice": "N/A",
+  "Production": "Warner Bros. Pictures",
+  "Website": "http://www.oceans8movie.com/",
+  "Response": "True"
+}
