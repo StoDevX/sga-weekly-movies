@@ -1,0 +1,44 @@
+{
+  "trailers": [
+    {
+      "iso_639_1": "en",
+      "iso_3166_1": "US",
+      "key": "dtwpjnuaVTE",
+      "name": "Ready Player One - SDCC Teaser [HD]",
+      "site": "YouTube",
+      "size": 1080,
+      "type": "Teaser",
+      "url": "https://www.youtube.com/watch?v=dtwpjnuaVTE"
+    },
+    {
+      "iso_639_1": "en",
+      "iso_3166_1": "US",
+      "key": "cSp1dM2Vj48",
+      "name": "READY PLAYER ONE - Official Trailer 1 [HD]",
+      "site": "YouTube",
+      "size": 1080,
+      "type": "Trailer",
+      "url": "https://www.youtube.com/watch?v=cSp1dM2Vj48"
+    },
+    {
+      "iso_639_1": "en",
+      "iso_3166_1": "US",
+      "key": "D_eZxSYRhco",
+      "name": "READY PLAYER ONE - Come With Me",
+      "site": "YouTube",
+      "size": 1080,
+      "type": "Trailer",
+      "url": "https://www.youtube.com/watch?v=D_eZxSYRhco"
+    },
+    {
+      "iso_639_1": "en",
+      "iso_3166_1": "US",
+      "key": "DlU4ZSU2xzg",
+      "name": "READY PLAYER ONE - Change the World",
+      "site": "YouTube",
+      "size": 1080,
+      "type": "Teaser",
+      "url": "https://www.youtube.com/watch?v=DlU4ZSU2xzg"
+    }
+  ]
+}
