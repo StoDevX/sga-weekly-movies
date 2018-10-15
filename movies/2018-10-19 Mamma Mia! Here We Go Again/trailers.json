@@ -1,0 +1,44 @@
+{
+  "trailers": [
+    {
+      "iso_639_1": "en",
+      "iso_3166_1": "US",
+      "key": "XcSMdhfKga4",
+      "name": "Mamma Mia! Here We Go Again - Trailer",
+      "site": "YouTube",
+      "size": 1080,
+      "type": "Trailer",
+      "url": "https://www.youtube.com/watch?v=XcSMdhfKga4"
+    },
+    {
+      "iso_639_1": "en",
+      "iso_3166_1": "US",
+      "key": "h1-AXcb5j18",
+      "name": "Mamma Mia! Here We Go Again First Look (2018) | Movieclips Trailers",
+      "site": "YouTube",
+      "size": 1080,
+      "type": "Featurette",
+      "url": "https://www.youtube.com/watch?v=h1-AXcb5j18"
+    },
+    {
+      "iso_639_1": "en",
+      "iso_3166_1": "US",
+      "key": "I5R8HpxGYO4",
+      "name": "Mamma Mia! Here We Go Again Final Trailer (2018) | Movieclips Trailers",
+      "site": "YouTube",
+      "size": 1080,
+      "type": "Trailer",
+      "url": "https://www.youtube.com/watch?v=I5R8HpxGYO4"
+    },
+    {
+      "iso_639_1": "en",
+      "iso_3166_1": "US",
+      "key": "r2TQAwcLJJg",
+      "name": "Mamma Mia: Here We Go Again | Movie Trailer | Release South Africa: 20 July 2018",
+      "site": "YouTube",
+      "size": 1080,
+      "type": "Trailer",
+      "url": "https://www.youtube.com/watch?v=r2TQAwcLJJg"
+    }
+  ]
+}
