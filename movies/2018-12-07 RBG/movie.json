@@ -1,0 +1,40 @@
+{
+  "Title": "RBG",
+  "Year": "2018",
+  "Rated": "PG",
+  "Released": "14 Sep 2018",
+  "Runtime": "98 min",
+  "Genre": "Documentary, Biography",
+  "Director": "Julie Cohen, Betsy West",
+  "Writer": "N/A",
+  "Actors": "Bill Clinton, Sharron Frontiero, James Steven Ginsburg, Jane C. Ginsburg",
+  "Plot": "The exceptional life and career of U.S. Supreme Court Justice Ruth Bader Ginsburg, who has developed a breathtaking legal legacy while becoming an unexpected pop culture icon.",
+  "Language": "English",
+  "Country": "USA",
+  "Awards": "1 nomination.",
+  "Poster": "https://m.media-amazon.com/images/M/MV5BNTE4Nzc0NDU3Nl5BMl5BanBnXkFtZTgwODIzMTQzNTM@._V1_SX300.jpg",
+  "Ratings": [
+    {
+      "Source": "Internet Movie Database",
+      "Value": "7.6/10"
+    },
+    {
+      "Source": "Rotten Tomatoes",
+      "Value": "94%"
+    },
+    {
+      "Source": "Metacritic",
+      "Value": "72/100"
+    }
+  ],
+  "Metascore": "72",
+  "imdbRating": "7.6",
+  "imdbVotes": "3,553",
+  "imdbID": "tt7689964",
+  "Type": "movie",
+  "DVD": "28 Aug 2018",
+  "BoxOffice": "N/A",
+  "Production": "Magnolia Pictures",
+  "Website": "http://www.rbgmovie.com/",
+  "Response": "True"
+}
