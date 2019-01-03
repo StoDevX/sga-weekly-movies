@@ -1,0 +1,40 @@
+{
+  "Title": "Shrek the Third",
+  "Year": "2007",
+  "Rated": "PG",
+  "Released": "18 May 2007",
+  "Runtime": "93 min",
+  "Genre": "Animation, Adventure, Comedy, Family, Fantasy",
+  "Director": "Chris Miller, Raman Hui(co-director)",
+  "Writer": "Jeffrey Price (screenplay by), Peter S. Seaman (screenplay by), Chris Miller (screenplay by), Aron Warner (screenplay by), Andrew Adamson (story by), William Steig (based upon the book by)",
+  "Actors": "Mike Myers, Eddie Murphy, Cameron Diaz, Antonio Banderas",
+  "Plot": "When his new father-in-law, King Harold falls ill, Shrek is looked at as the heir to the land of Far, Far Away. Not one to give up his beloved swamp, Shrek recruits his friends Donkey and Puss in Boots to install the rebellious Artie as the new king. Princess Fiona, however, rallies a band of royal girlfriends to fend off a coup d'etat by the jilted Prince Charming.",
+  "Language": "English",
+  "Country": "USA",
+  "Awards": "Nominated for 1 BAFTA Film Award. Another 5 wins & 15 nominations.",
+  "Poster": "https://m.media-amazon.com/images/M/MV5BOTgyMjc3ODk2MV5BMl5BanBnXkFtZTcwMjY0MjEzMw@@._V1_SX300.jpg",
+  "Ratings": [
+    {
+      "Source": "Internet Movie Database",
+      "Value": "6.1/10"
+    },
+    {
+      "Source": "Rotten Tomatoes",
+      "Value": "41%"
+    },
+    {
+      "Source": "Metacritic",
+      "Value": "58/100"
+    }
+  ],
+  "Metascore": "58",
+  "imdbRating": "6.1",
+  "imdbVotes": "245,876",
+  "imdbID": "tt0413267",
+  "Type": "movie",
+  "DVD": "13 Nov 2007",
+  "BoxOffice": "$320,706,665",
+  "Production": "Dreamworks",
+  "Website": "http://www.shrek.com/",
+  "Response": "True"
+}

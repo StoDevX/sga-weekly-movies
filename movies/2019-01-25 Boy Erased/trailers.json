@@ -1,0 +1,34 @@
+{
+  "trailers": [
+    {
+      "iso_639_1": "en",
+      "iso_3166_1": "US",
+      "key": "-B71eyB_Onw",
+      "name": "BOY ERASED – Official Trailer [HD] – In Theaters November",
+      "site": "YouTube",
+      "size": 1080,
+      "type": "Trailer",
+      "url": "https://www.youtube.com/watch?v=-B71eyB_Onw"
+    },
+    {
+      "iso_639_1": "en",
+      "iso_3166_1": "US",
+      "key": "QEpU7EF0oVY",
+      "name": "BOY ERASED - Official Trailer #2 [HD] - In Select Theaters This Friday",
+      "site": "YouTube",
+      "size": 1080,
+      "type": "Trailer",
+      "url": "https://www.youtube.com/watch?v=QEpU7EF0oVY"
+    },
+    {
+      "iso_639_1": "en",
+      "iso_3166_1": "US",
+      "key": "kZM1C45F9Y0",
+      "name": "Boy Erased (2018) - Featurette - Becoming Jared",
+      "site": "YouTube",
+      "size": 1080,
+      "type": "Featurette",
+      "url": "https://www.youtube.com/watch?v=kZM1C45F9Y0"
+    }
+  ]
+}
