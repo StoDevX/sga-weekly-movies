@@ -1,0 +1,40 @@
+{
+  "Title": "Mary Poppins Returns",
+  "Year": "2018",
+  "Rated": "PG",
+  "Released": "19 Dec 2018",
+  "Runtime": "130 min",
+  "Genre": "Comedy, Family, Fantasy, Musical",
+  "Director": "Rob Marshall",
+  "Writer": "David Magee (screenplay by), David Magee (screen story by), Rob Marshall (screen story by), John DeLuca (screen story by), P.L. Travers (based upon the \"Mary Poppins\" stories by)",
+  "Actors": "Emily Blunt, Lin-Manuel Miranda, Ben Whishaw, Emily Mortimer",
+  "Plot": "Decades after her original visit, the magical nanny returns to help the Banks siblings and Michael's children through a difficult time in their lives.",
+  "Language": "English",
+  "Country": "USA",
+  "Awards": "N/A",
+  "Poster": "https://m.media-amazon.com/images/M/MV5BMTk0NDIzMTA1MF5BMl5BanBnXkFtZTgwMzM0MTUzNjM@._V1_SX300.jpg",
+  "Ratings": [
+    {
+      "Source": "Internet Movie Database",
+      "Value": "7.2/10"
+    },
+    {
+      "Source": "Rotten Tomatoes",
+      "Value": "78%"
+    },
+    {
+      "Source": "Metacritic",
+      "Value": "66/100"
+    }
+  ],
+  "Metascore": "66",
+  "imdbRating": "7.2",
+  "imdbVotes": "31,327",
+  "imdbID": "tt5028340",
+  "Type": "movie",
+  "DVD": "N/A",
+  "BoxOffice": "N/A",
+  "Production": "Walt Disney Pictures",
+  "Website": "http://movies.disney.com/mary-poppins-returns",
+  "Response": "True"
+}
