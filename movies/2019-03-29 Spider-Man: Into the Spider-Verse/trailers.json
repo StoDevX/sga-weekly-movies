@@ -1,0 +1,44 @@
+{
+  "trailers": [
+    {
+      "iso_639_1": "en",
+      "iso_3166_1": "US",
+      "key": "g4Hbz2jLxvQ",
+      "name": "SPIDER-MAN: INTO THE SPIDER-VERSE - Official Trailer (HD)",
+      "site": "YouTube",
+      "size": 1080,
+      "type": "Trailer",
+      "url": "https://www.youtube.com/watch?v=g4Hbz2jLxvQ"
+    },
+    {
+      "iso_639_1": "en",
+      "iso_3166_1": "US",
+      "key": "ii3n7hYQOl4",
+      "name": "SPIDER-MAN: INTO THE SPIDER-VERSE - Official Teaser Trailer",
+      "site": "YouTube",
+      "size": 1080,
+      "type": "Teaser",
+      "url": "https://www.youtube.com/watch?v=ii3n7hYQOl4"
+    },
+    {
+      "iso_639_1": "en",
+      "iso_3166_1": "US",
+      "key": "tg52up16eq0",
+      "name": "SPIDER-MAN: INTO THE SPIDER-VERSE - Official Trailer #2 (HD)",
+      "site": "YouTube",
+      "size": 1080,
+      "type": "Trailer",
+      "url": "https://www.youtube.com/watch?v=tg52up16eq0"
+    },
+    {
+      "iso_639_1": "en",
+      "iso_3166_1": "US",
+      "key": "jGzhm6g6BO4",
+      "name": "Spider-Man: Into The Spider-Verse - All TV Spot (2018)",
+      "site": "YouTube",
+      "size": 1080,
+      "type": "Teaser",
+      "url": "https://www.youtube.com/watch?v=jGzhm6g6BO4"
+    }
+  ]
+}
