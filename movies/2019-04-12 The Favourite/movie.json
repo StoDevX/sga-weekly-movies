@@ -1,0 +1,40 @@
+{
+  "Title": "The Favourite",
+  "Year": "2018",
+  "Rated": "R",
+  "Released": "21 Dec 2018",
+  "Runtime": "119 min",
+  "Genre": "Biography, Comedy, Drama, History",
+  "Director": "Yorgos Lanthimos",
+  "Writer": "Deborah Davis, Tony McNamara",
+  "Actors": "Olivia Colman, Rachel Weisz, Emma Delves, Faye Daveney",
+  "Plot": "In early 18th century England, a frail Queen Anne occupies the throne and her close friend, Lady Sarah, governs the country in her stead. When a new servant, Abigail, arrives, her charm endears her to Sarah.",
+  "Language": "English",
+  "Country": "Ireland, UK, USA",
+  "Awards": "N/A",
+  "Poster": "https://m.media-amazon.com/images/M/MV5BMTg3Mzk4MjU0Ml5BMl5BanBnXkFtZTgwMzQ3MjkxNjM@._V1_SX300.jpg",
+  "Ratings": [
+    {
+      "Source": "Internet Movie Database",
+      "Value": "7.7/10"
+    },
+    {
+      "Source": "Rotten Tomatoes",
+      "Value": "93%"
+    },
+    {
+      "Source": "Metacritic",
+      "Value": "90/100"
+    }
+  ],
+  "Metascore": "90",
+  "imdbRating": "7.7",
+  "imdbVotes": "97,364",
+  "imdbID": "tt5083738",
+  "Type": "movie",
+  "DVD": "12 Feb 2019",
+  "BoxOffice": "N/A",
+  "Production": "Fox Searchlight Pictures, Film4 and Waypoint",
+  "Website": "http://www.foxsearchlight.com/thefavourite/",
+  "Response": "True"
+}
