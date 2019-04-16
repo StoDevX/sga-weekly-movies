@@ -1,0 +1,54 @@
+{
+  "trailers": [
+    {
+      "iso_639_1": "en",
+      "iso_3166_1": "US",
+      "key": "_BcYBFC6zfY",
+      "name": "Ralph Breaks the Internet: Wreck-It Ralph 2 Official Trailer",
+      "site": "YouTube",
+      "size": 1080,
+      "type": "Trailer",
+      "url": "https://www.youtube.com/watch?v=_BcYBFC6zfY"
+    },
+    {
+      "iso_639_1": "en",
+      "iso_3166_1": "US",
+      "key": "DIBw9dSVKdU",
+      "name": "Ralph Breaks The Internet: Wreck-It Ralph 2 Official Teaser Trailer",
+      "site": "YouTube",
+      "size": 1080,
+      "type": "Teaser",
+      "url": "https://www.youtube.com/watch?v=DIBw9dSVKdU"
+    },
+    {
+      "iso_639_1": "en",
+      "iso_3166_1": "US",
+      "key": "T73h5bmD8Dc",
+      "name": "Ralph Breaks the Internet | Official Trailer 2",
+      "site": "YouTube",
+      "size": 1080,
+      "type": "Trailer",
+      "url": "https://www.youtube.com/watch?v=T73h5bmD8Dc"
+    },
+    {
+      "iso_639_1": "en",
+      "iso_3166_1": "US",
+      "key": "oc96aHppNIM",
+      "name": "Ralph Breaks the Internet: Wreck It Ralph 2 (2018) - TV Spot - Happy Birthday Internet",
+      "site": "YouTube",
+      "size": 1080,
+      "type": "Teaser",
+      "url": "https://www.youtube.com/watch?v=oc96aHppNIM"
+    },
+    {
+      "iso_639_1": "en",
+      "iso_3166_1": "US",
+      "key": "rttxBrHeU2g",
+      "name": "Ralph Breaks the Internet: Wreck It Ralph 2 - TV Spot - Now Playing (2018)",
+      "site": "YouTube",
+      "size": 720,
+      "type": "Teaser",
+      "url": "https://www.youtube.com/watch?v=rttxBrHeU2g"
+    }
+  ]
+}
