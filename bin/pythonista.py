@@ -23,6 +23,18 @@ def main():
             'title': 'First day of movie',
             'value': friday,
         },
+        {
+            'type': 'switch',
+            'key': 'one_day_only',
+            'title': 'Only shown for one day?',
+            'value': False
+        },
+        {
+            'type': 'switch',
+            'key': 'exact',
+            'title': 'Skip search; use exact?',
+            'value': False
+        }
     ])
 
     if not args:
@@ -30,7 +42,7 @@ def main():
 
     args['date'] = args['date'].date()
 
-    get_movie(title=args['title'], date=args['date'], year=None)
+    get_movie(title=args['title'], date=args['date'], year=None, one_day=args['one_day_only'], exact_match=args['exact'])
 
     print('done!')
 

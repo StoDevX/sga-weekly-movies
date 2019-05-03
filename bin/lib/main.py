@@ -6,8 +6,8 @@ from .posters import download_posters
 from .movies import search_for_movie
 
 
-def get_movie(*, title, year, date):
-    movie = search_for_movie(title, year)
+def get_movie(*, title, year, date, one_day, exact_match):
+    movie = search_for_movie(title, year, exact_match)
     if not movie:
         return
 
@@ -31,22 +31,23 @@ def get_movie(*, title, year, date):
 
     for trailer in trailers:
         download_trailer(trailer, movie_dir / 'trailers')
+        
+    showings = {'showings': []}
+    day_count = 1 if one_day else 2
+
+    for n in range(day_count):
+        a_date = date + timedelta(days=n)
+        showings['showings'].append(
+            {
+                'date': a_date.isoformat(),
+                'times': ['17:00', '19:30', '22:00'],
+                'location': 'Viking Theater',
+            }
+        )
+    
+    print(showings)
 
     showings_file = movie_dir / 'showings.json'
     with open(showings_file, 'w', encoding='utf-8') as outfile:
-        showings = {
-            'showings': [
-                {
-                    'date': date.isoformat(),
-                    'times': ['17:00', '19:30', '22:00'],
-                    'location': 'Viking Theater',
-                },
-                {
-                    'date': (date + timedelta(days=1)).isoformat(),
-                    'times': ['17:00', '19:30', '22:00'],
-                    'location': 'Viking Theater',
-                },
-            ]
-        }
         json.dump(showings, outfile, ensure_ascii=False, indent=2)
         outfile.write('\n')

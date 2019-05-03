@@ -17,8 +17,14 @@ def get_movie(imdb_id):
     return r.json()
 
 
-def search_for_movie(title: str, year: int):
-    params = {'s': title, 'apiKey': OMDB_API_KEY, 'type': 'movie'}
+def search_for_movie(title: str, year: int, exact_match: bool):
+    params = {'apiKey': OMDB_API_KEY, 'type': 'movie'}
+
+    if exact_match:
+        params['t'] = title
+    else:
+        params['s'] = title
+
     if year:
         params['y'] = year
 
@@ -27,21 +33,24 @@ def search_for_movie(title: str, year: int):
     
     print(results)
 
-    if is_pythonista:
-        options = [{
-            'title': f'{m["Title"]} ({m["Year"]})',
-            'accessory_type': 'disclosure_indicator',
-        } for m in results['Search']]
-
-        chosen_title = dialogs.list_dialog('Pick one', options)
-        if not chosen_title:
-            return None
-
-        chosen_index = options.index(chosen_title)
+    if 'Search' in results:
+        if is_pythonista:
+            options = [{
+                'title': f'{m["Title"]} ({m["Year"]})',
+                'accessory_type': 'disclosure_indicator',
+            } for m in results['Search']]
+    
+            chosen_title = dialogs.list_dialog('Pick one', options)
+            if not chosen_title:
+                return None
+    
+            chosen_index = options.index(chosen_title)
+        else:
+            options = [f'{m["Title"]} ({m["Year"]})' for m in results['Search']]
+            [chosen_title, chosen_index] = pick(options)
+    
+        chosen_movie = results['Search'][chosen_index]
     else:
-        options = [f'{m["Title"]} ({m["Year"]})' for m in results['Search']]
-        [chosen_title, chosen_index] = pick(options)
-
-    chosen_movie = results['Search'][chosen_index]
+        chosen_movie = results
 
     return get_movie(chosen_movie['imdbID'])
