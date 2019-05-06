@@ -1,0 +1,40 @@
+{
+  "Title": "The Lego Movie 2: The Second Part",
+  "Year": "2019",
+  "Rated": "PG",
+  "Released": "08 Feb 2019",
+  "Runtime": "107 min",
+  "Genre": "Animation, Action, Adventure, Comedy, Family, Fantasy, Musical",
+  "Director": "Mike Mitchell",
+  "Writer": "Phil Lord (screenplay by), Christopher Miller (screenplay by), Phil Lord (story by), Christopher Miller (story by), Matthew Fogel (story by), Jerry Siegel (Superman created by), Joe Shuster (Superman created by), Bob Kane (Batman created by), Bill Finger (Batman created by), William Moulton Marston (Wonder Woman created by)",
+  "Actors": "Chris Pratt, Elizabeth Banks, Will Arnett, Tiffany Haddish",
+  "Plot": "It's been five years since everything was awesome and the citizens are facing a huge new threat: Lego Duplo invaders from outer space, wrecking everything faster than they can rebuild.",
+  "Language": "English",
+  "Country": "Denmark, Norway, Australia, USA",
+  "Awards": "N/A",
+  "Poster": "https://m.media-amazon.com/images/M/MV5BMTkyOTkwNDc1N15BMl5BanBnXkFtZTgwNzkyMzk3NjM@._V1_SX300.jpg",
+  "Ratings": [
+    {
+      "Source": "Internet Movie Database",
+      "Value": "6.8/10"
+    },
+    {
+      "Source": "Rotten Tomatoes",
+      "Value": "86%"
+    },
+    {
+      "Source": "Metacritic",
+      "Value": "65/100"
+    }
+  ],
+  "Metascore": "65",
+  "imdbRating": "6.8",
+  "imdbVotes": "24,039",
+  "imdbID": "tt3513498",
+  "Type": "movie",
+  "DVD": "07 May 2019",
+  "BoxOffice": "N/A",
+  "Production": "Warner Bros. Pictures",
+  "Website": "http://TheLEGOMovie.com",
+  "Response": "True"
+}
