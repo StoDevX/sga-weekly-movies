@@ -1,0 +1,36 @@
+{
+  "Title": "High School Musical 2",
+  "Year": "2007",
+  "Rated": "TV-G",
+  "Released": "17 Aug 2007",
+  "Runtime": "104 min",
+  "Genre": "Comedy, Drama, Family, Music, Musical, Romance",
+  "Director": "Kenny Ortega",
+  "Writer": "Peter Barsocchini",
+  "Actors": "Zac Efron, Vanessa Hudgens, Ashley Tisdale, Lucas Grabeel",
+  "Plot": "School's out for summer and the East High Wildcats are ready to make it the time of their lives after landing jobs in a wealthy country club owned by Sharpay and Ryan's family.",
+  "Language": "English",
+  "Country": "USA",
+  "Awards": "Nominated for 2 Primetime Emmys. Another 4 wins & 7 nominations.",
+  "Poster": "https://m.media-amazon.com/images/M/MV5BNjI5ODI4NTc1MF5BMl5BanBnXkFtZTgwMDg3ODYzMjE@._V1_SX300.jpg",
+  "Ratings": [
+    {
+      "Source": "Internet Movie Database",
+      "Value": "5.0/10"
+    },
+    {
+      "Source": "Rotten Tomatoes",
+      "Value": "57%"
+    }
+  ],
+  "Metascore": "N/A",
+  "imdbRating": "5.0",
+  "imdbVotes": "49,140",
+  "imdbID": "tt0810900",
+  "Type": "movie",
+  "DVD": "11 Dec 2007",
+  "BoxOffice": "N/A",
+  "Production": "Walt Disney Home Entertainment",
+  "Website": "N/A",
+  "Response": "True"
+}
