@@ -42,7 +42,13 @@ def main():
 
     args['date'] = args['date'].date()
 
-    get_movie(title=args['title'], date=args['date'], year=None, one_day=args['one_day_only'], exact_match=args['exact'])
+    get_movie(
+        title=args['title'],
+        date=args['date'],
+        year=None,
+        one_day=args['one_day_only'],
+        exact_match=args['exact'],
+    )
 
     print('done!')
 

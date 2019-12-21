@@ -11,7 +11,8 @@ def main():
                         help='the first date shown at Olaf, in YYYY-MM-DD')
     parser.add_argument('title', metavar='TITLE',
                         help='the movie title to fetch')
-    parser.add_argument('--year', default=None, help='the year the movie was released')
+    parser.add_argument('--year', default=None,
+                        help='the year the movie was released')
 
     args = parser.parse_args()
 

@@ -13,7 +13,6 @@ def update_movie_info(movie, movie_dir: Path):
     movie = get_movie(movie['imdbID'])
     trailers = list(get_trailers(movie['imdbID']))
 
-    movie_file = movie_dir / 'movie.json'
     download_posters(movie, movie_dir)
 
     trailers_file = movie_dir / 'trailers.json'
