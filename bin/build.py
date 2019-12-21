@@ -214,8 +214,12 @@ def save_upcoming(entries, today=date.today()):
         last_showing = max(s['time'] for s in e['showings'])
         last_showing_date = last_showing.isoformat().split('T')[0]
 
+        first_showing = min(s['time'] for s in e['showings'])
+        first_showing_date = first_showing.isoformat().split('T')[0]
+
         upcoming_refs.append({
             'movie': f'{e["root"]}/index.json',
+            'first_showing': first_showing_date,
             'last_showing': last_showing_date,
         })
 
