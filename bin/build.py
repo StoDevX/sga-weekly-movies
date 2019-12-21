@@ -201,6 +201,28 @@ def save_latest(entries):
         json.dump(data, outfile, default=json_serialize, ensure_ascii=False)
 
 
+def save_upcoming(entries, today=date.today()):
+    week_ahead = today + timedelta(days=7)
+
+    upcoming = [
+        e for e in entries
+        if today < min(s['time'].date() for s in e['showings']) < week_ahead
+    ]
+
+    upcoming_refs = []
+    for e in upcoming:
+        last_showing = max(s['time'] for s in e['showings'])
+        last_showing_date = last_showing.isoformat().split('T')[0]
+
+        upcoming_refs.append({
+            'movie': f'{e["root"]}/index.json',
+            'last_showing': last_showing_date,
+        })
+
+    with open('upcoming.json', 'w', encoding='utf-8') as outfile:
+        json.dump(upcoming_refs, outfile, default=json_serialize, ensure_ascii=False)
+
+
 def main():
     entries = []
     root_dir = pathlib.Path('./movies')
@@ -221,6 +243,7 @@ def main():
 
     save_archive(entries)
     save_latest(entries)
+    save_upcoming(entries)
 
 
 if __name__ == '__main__':
