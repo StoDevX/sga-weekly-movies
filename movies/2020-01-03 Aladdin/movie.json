@@ -1,0 +1,36 @@
+{
+  "Title": "Aladdin",
+  "Year": "2019",
+  "Rated": "PG",
+  "Released": "24 May 2019",
+  "Runtime": "128 min",
+  "Genre": "Adventure, Family, Fantasy, Musical, Romance",
+  "Director": "Guy Ritchie",
+  "Writer": "John August (screenplay by), Guy Ritchie (screenplay by)",
+  "Actors": "Will Smith, Mena Massoud, Naomi Scott, Marwan Kenzari",
+  "Plot": "A kind-hearted street urchin and a power-hungry Grand Vizier vie for a magic lamp that has the power to make their deepest wishes come true.",
+  "Language": "Arabic, English",
+  "Country": "USA",
+  "Awards": "N/A",
+  "Poster": "https://m.media-amazon.com/images/M/MV5BMjQ2ODIyMjY4MF5BMl5BanBnXkFtZTgwNzY4ODI2NzM@._V1_SX300.jpg",
+  "Ratings": [
+    {
+      "Source": "Internet Movie Database",
+      "Value": "7.1/10"
+    },
+    {
+      "Source": "Metacritic",
+      "Value": "53/100"
+    }
+  ],
+  "Metascore": "53",
+  "imdbRating": "7.1",
+  "imdbVotes": "160,305",
+  "imdbID": "tt6139732",
+  "Type": "movie",
+  "DVD": "N/A",
+  "BoxOffice": "N/A",
+  "Production": "N/A",
+  "Website": "N/A",
+  "Response": "True"
+}
