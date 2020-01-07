@@ -1,0 +1,24 @@
+{
+  "trailers": [
+    {
+      "iso_639_1": "en",
+      "iso_3166_1": "US",
+      "key": "qGqiHJTsRkQ",
+      "name": "Knives Out (2019 Movie) Official Trailer — Daniel Craig, Chris Evans, Jamie Lee Curtis",
+      "site": "YouTube",
+      "size": 1080,
+      "type": "Trailer",
+      "url": "https://www.youtube.com/watch?v=qGqiHJTsRkQ"
+    },
+    {
+      "iso_639_1": "en",
+      "iso_3166_1": "US",
+      "key": "sL-9Khv7wa4",
+      "name": "Knives Out (2019) New Trailer – Daniel Craig, Chris Evans, Ana de Armas",
+      "site": "YouTube",
+      "size": 1080,
+      "type": "Trailer",
+      "url": "https://www.youtube.com/watch?v=sL-9Khv7wa4"
+    }
+  ]
+}
