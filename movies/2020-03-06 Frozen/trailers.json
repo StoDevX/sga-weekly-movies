@@ -1,0 +1,44 @@
+{
+  "trailers": [
+    {
+      "iso_639_1": "en",
+      "iso_3166_1": "US",
+      "key": "TbQm5doF_Uc",
+      "name": "Disney's Frozen Official Trailer",
+      "site": "YouTube",
+      "size": 720,
+      "type": "Trailer",
+      "url": "https://www.youtube.com/watch?v=TbQm5doF_Uc"
+    },
+    {
+      "iso_639_1": "en",
+      "iso_3166_1": "US",
+      "key": "L0MK7qz13bU",
+      "name": "FROZEN | Let It Go Sing-along | Official Disney UK",
+      "site": "YouTube",
+      "size": 1080,
+      "type": "Clip",
+      "url": "https://www.youtube.com/watch?v=L0MK7qz13bU"
+    },
+    {
+      "iso_639_1": "en",
+      "iso_3166_1": "US",
+      "key": "S1x76DoACB8",
+      "name": "Disney's Frozen Teaser Trailer",
+      "site": "YouTube",
+      "size": 1080,
+      "type": "Trailer",
+      "url": "https://www.youtube.com/watch?v=S1x76DoACB8"
+    },
+    {
+      "iso_639_1": "en",
+      "iso_3166_1": "US",
+      "key": "-WdC4DaYIeQ",
+      "name": "FROZEN | First Look Trailer | Official Disney UK",
+      "site": "YouTube",
+      "size": 1080,
+      "type": "Trailer",
+      "url": "https://www.youtube.com/watch?v=-WdC4DaYIeQ"
+    }
+  ]
+}

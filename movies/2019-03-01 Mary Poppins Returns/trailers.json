@@ -1,0 +1,54 @@
+{
+  "trailers": [
+    {
+      "iso_639_1": "en",
+      "iso_3166_1": "US",
+      "key": "PzcaR1N0pTI",
+      "name": "Mary Poppins Returns Official Teaser Trailer",
+      "site": "YouTube",
+      "size": 1080,
+      "type": "Teaser",
+      "url": "https://www.youtube.com/watch?v=PzcaR1N0pTI"
+    },
+    {
+      "iso_639_1": "en",
+      "iso_3166_1": "US",
+      "key": "-3jsfXDZLIY",
+      "name": "Mary Poppins Returns | Official Trailer",
+      "site": "YouTube",
+      "size": 720,
+      "type": "Trailer",
+      "url": "https://www.youtube.com/watch?v=-3jsfXDZLIY"
+    },
+    {
+      "iso_639_1": "en",
+      "iso_3166_1": "US",
+      "key": "fKfvc0gbTBk",
+      "name": "Mary Poppins Returns - TV Spot - Always (2018)",
+      "site": "YouTube",
+      "size": 1080,
+      "type": "Teaser",
+      "url": "https://www.youtube.com/watch?v=fKfvc0gbTBk"
+    },
+    {
+      "iso_639_1": "en",
+      "iso_3166_1": "US",
+      "key": "BbQQ6DzmpFE",
+      "name": "Mary Poppins Returns - Clips - It's Wonderful to See You (2018)",
+      "site": "YouTube",
+      "size": 1080,
+      "type": "Clip",
+      "url": "https://www.youtube.com/watch?v=BbQQ6DzmpFE"
+    },
+    {
+      "iso_639_1": "en",
+      "iso_3166_1": "US",
+      "key": "UcD4wnGnR2w",
+      "name": "Mary Poppins Returns - Featurette - The Story Continues (2018)",
+      "site": "YouTube",
+      "size": 1080,
+      "type": "Featurette",
+      "url": "https://www.youtube.com/watch?v=UcD4wnGnR2w"
+    }
+  ]
+}

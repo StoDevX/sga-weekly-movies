@@ -1,0 +1,40 @@
+{
+  "Title": "Jurassic World: Fallen Kingdom",
+  "Year": "2018",
+  "Rated": "PG-13",
+  "Released": "22 Jun 2018",
+  "Runtime": "128 min",
+  "Genre": "Action, Adventure, Sci-Fi",
+  "Director": "J.A. Bayona",
+  "Writer": "Derek Connolly, Colin Trevorrow, Michael Crichton (based on characters created by)",
+  "Actors": "Chris Pratt, Bryce Dallas Howard, Rafe Spall, Justice Smith",
+  "Plot": "When the island's dormant volcano begins roaring to life, Owen and Claire mount a campaign to rescue the remaining dinosaurs from this extinction-level event.",
+  "Language": "English, Russian",
+  "Country": "USA",
+  "Awards": "N/A",
+  "Poster": "https://m.media-amazon.com/images/M/MV5BNzIxMjYwNDEwN15BMl5BanBnXkFtZTgwMzk5MDI3NTM@._V1_SX300.jpg",
+  "Ratings": [
+    {
+      "Source": "Internet Movie Database",
+      "Value": "6.4/10"
+    },
+    {
+      "Source": "Rotten Tomatoes",
+      "Value": "49%"
+    },
+    {
+      "Source": "Metacritic",
+      "Value": "51/100"
+    }
+  ],
+  "Metascore": "51",
+  "imdbRating": "6.4",
+  "imdbVotes": "116,570",
+  "imdbID": "tt4881806",
+  "Type": "movie",
+  "DVD": "04 Sep 2018",
+  "BoxOffice": "N/A",
+  "Production": "Universal Pictures",
+  "Website": "http://www.jurassicworld.com",
+  "Response": "True"
+}

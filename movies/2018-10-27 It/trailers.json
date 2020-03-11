@@ -1,0 +1,74 @@
+{
+  "trailers": [
+    {
+      "iso_639_1": "en",
+      "iso_3166_1": "US",
+      "key": "xKJmEC5ieOk",
+      "name": "IT - Official Trailer 1",
+      "site": "YouTube",
+      "size": 1080,
+      "type": "Trailer",
+      "url": "https://www.youtube.com/watch?v=xKJmEC5ieOk"
+    },
+    {
+      "iso_639_1": "en",
+      "iso_3166_1": "US",
+      "key": "Xw-9X5UE8EM",
+      "name": "It [Pennywise Lives!]",
+      "site": "YouTube",
+      "size": 1080,
+      "type": "Featurette",
+      "url": "https://www.youtube.com/watch?v=Xw-9X5UE8EM"
+    },
+    {
+      "iso_639_1": "en",
+      "iso_3166_1": "US",
+      "key": "WXk2vYUZfMM",
+      "name": "It [The Losers' Club]",
+      "site": "YouTube",
+      "size": 1080,
+      "type": "Featurette",
+      "url": "https://www.youtube.com/watch?v=WXk2vYUZfMM"
+    },
+    {
+      "iso_639_1": "en",
+      "iso_3166_1": "US",
+      "key": "uIDh7-mlHg4",
+      "name": "Behind The Scenes on IT Movie + Bloopers & Clips!",
+      "site": "YouTube",
+      "size": 1080,
+      "type": "Featurette",
+      "url": "https://www.youtube.com/watch?v=uIDh7-mlHg4"
+    },
+    {
+      "iso_639_1": "en",
+      "iso_3166_1": "US",
+      "key": "zhom8nefwss",
+      "name": "IT - Welcome to the Losers' Club",
+      "site": "YouTube",
+      "size": 1080,
+      "type": "Featurette",
+      "url": "https://www.youtube.com/watch?v=zhom8nefwss"
+    },
+    {
+      "iso_639_1": "en",
+      "iso_3166_1": "US",
+      "key": "3w-VWPCrX6E",
+      "name": "IT - Facing Evil",
+      "site": "YouTube",
+      "size": 1080,
+      "type": "Teaser",
+      "url": "https://www.youtube.com/watch?v=3w-VWPCrX6E"
+    },
+    {
+      "iso_639_1": "en",
+      "iso_3166_1": "US",
+      "key": "FnCdOQsX5kc",
+      "name": "IT - Official Teaser Trailer",
+      "site": "YouTube",
+      "size": 1080,
+      "type": "Trailer",
+      "url": "https://www.youtube.com/watch?v=FnCdOQsX5kc"
+    }
+  ]
+}

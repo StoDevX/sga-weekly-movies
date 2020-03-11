@@ -1,0 +1,40 @@
+{
+  "Title": "Green Book",
+  "Year": "2018",
+  "Rated": "PG-13",
+  "Released": "16 Nov 2018",
+  "Runtime": "130 min",
+  "Genre": "Biography, Comedy, Drama, Music",
+  "Director": "Peter Farrelly",
+  "Writer": "Nick Vallelonga, Brian Hayes Currie, Peter Farrelly",
+  "Actors": "Viggo Mortensen, Mahershala Ali, Linda Cardellini, Sebastian Maniscalco",
+  "Plot": "A working-class Italian-American bouncer becomes the driver of an African-American classical pianist on a tour of venues through the 1960s American South.",
+  "Language": "English, Italian, Russian, German",
+  "Country": "USA",
+  "Awards": "N/A",
+  "Poster": "https://m.media-amazon.com/images/M/MV5BYzIzYmJlYTYtNGNiYy00N2EwLTk4ZjItMGYyZTJiOTVkM2RlXkEyXkFqcGdeQXVyODY1NDk1NjE@._V1_SX300.jpg",
+  "Ratings": [
+    {
+      "Source": "Internet Movie Database",
+      "Value": "8.3/10"
+    },
+    {
+      "Source": "Rotten Tomatoes",
+      "Value": "78%"
+    },
+    {
+      "Source": "Metacritic",
+      "Value": "69/100"
+    }
+  ],
+  "Metascore": "69",
+  "imdbRating": "8.3",
+  "imdbVotes": "138,886",
+  "imdbID": "tt6966692",
+  "Type": "movie",
+  "DVD": "19 Feb 2019",
+  "BoxOffice": "N/A",
+  "Production": "Universal Pictures",
+  "Website": "https://www.uphe.com/movies/green-book",
+  "Response": "True"
+}

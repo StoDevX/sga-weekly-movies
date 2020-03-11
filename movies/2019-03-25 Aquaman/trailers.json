@@ -1,0 +1,54 @@
+{
+  "trailers": [
+    {
+      "iso_639_1": "en",
+      "iso_3166_1": "US",
+      "key": "WDkg3h8PCVU",
+      "name": "Official Trailer #1",
+      "site": "YouTube",
+      "size": 1080,
+      "type": "Trailer",
+      "url": "https://www.youtube.com/watch?v=WDkg3h8PCVU"
+    },
+    {
+      "iso_639_1": "en",
+      "iso_3166_1": "US",
+      "key": "WaWnLiffxJ4",
+      "name": "Extended Video",
+      "site": "YouTube",
+      "size": 1080,
+      "type": "Featurette",
+      "url": "https://www.youtube.com/watch?v=WaWnLiffxJ4"
+    },
+    {
+      "iso_639_1": "en",
+      "iso_3166_1": "US",
+      "key": "shdb-Bn-kMo",
+      "name": "Behind the Scenes",
+      "site": "YouTube",
+      "size": 1080,
+      "type": "Behind the Scenes",
+      "url": "https://www.youtube.com/watch?v=shdb-Bn-kMo"
+    },
+    {
+      "iso_639_1": "en",
+      "iso_3166_1": "US",
+      "key": "2wcj6SrX4zw",
+      "name": "Final Trailer",
+      "site": "YouTube",
+      "size": 1080,
+      "type": "Trailer",
+      "url": "https://www.youtube.com/watch?v=2wcj6SrX4zw"
+    },
+    {
+      "iso_639_1": "en",
+      "iso_3166_1": "US",
+      "key": "WfLlSX-hVOE",
+      "name": "Villainous Training 'Aquaman' Behind The Scenes [+Subtitles]",
+      "site": "YouTube",
+      "size": 1080,
+      "type": "Behind the Scenes",
+      "url": "https://www.youtube.com/watch?v=WfLlSX-hVOE"
+    }
+  ]
+}

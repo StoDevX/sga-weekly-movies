@@ -1,0 +1,44 @@
+{
+  "trailers": [
+    {
+      "iso_639_1": "en",
+      "iso_3166_1": "US",
+      "key": "Vu4UPet8Nyc",
+      "name": "Molly's Game | Official Trailer | Now Playing",
+      "site": "YouTube",
+      "size": 1080,
+      "type": "Trailer",
+      "url": "https://www.youtube.com/watch?v=Vu4UPet8Nyc"
+    },
+    {
+      "iso_639_1": "en",
+      "iso_3166_1": "US",
+      "key": "9v-pw0ZQRLY",
+      "name": "Molly's Game | Official Trailer 2 | Now Playing",
+      "site": "YouTube",
+      "size": 1080,
+      "type": "Trailer",
+      "url": "https://www.youtube.com/watch?v=9v-pw0ZQRLY"
+    },
+    {
+      "iso_639_1": "en",
+      "iso_3166_1": "US",
+      "key": "ipVHY_UZ6zM",
+      "name": "Molly's Game | Trailer Announcement | Now Playing",
+      "site": "YouTube",
+      "size": 1080,
+      "type": "Teaser",
+      "url": "https://www.youtube.com/watch?v=ipVHY_UZ6zM"
+    },
+    {
+      "iso_639_1": "en",
+      "iso_3166_1": "US",
+      "key": "vS0Gw7oVsYc",
+      "name": "MOLLY'S GAME Interviews: Jessica Chastain and Aaron Sorkin",
+      "site": "YouTube",
+      "size": 1080,
+      "type": "Featurette",
+      "url": "https://www.youtube.com/watch?v=vS0Gw7oVsYc"
+    }
+  ]
+}

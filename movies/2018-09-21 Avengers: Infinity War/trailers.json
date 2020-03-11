@@ -1,0 +1,74 @@
+{
+  "trailers": [
+    {
+      "iso_639_1": "en",
+      "iso_3166_1": "US",
+      "key": "6ZfuNTqbHE8",
+      "name": "Official Trailer",
+      "site": "YouTube",
+      "size": 1080,
+      "type": "Trailer",
+      "url": "https://www.youtube.com/watch?v=6ZfuNTqbHE8"
+    },
+    {
+      "iso_639_1": "en",
+      "iso_3166_1": "US",
+      "key": "sAOzrChqmd0",
+      "name": "Action...Avengers: Infinity War",
+      "site": "YouTube",
+      "size": 720,
+      "type": "Clip",
+      "url": "https://www.youtube.com/watch?v=sAOzrChqmd0"
+    },
+    {
+      "iso_639_1": "en",
+      "iso_3166_1": "US",
+      "key": "3VbHg5fqBYw",
+      "name": "Trailer Tease",
+      "site": "YouTube",
+      "size": 720,
+      "type": "Teaser",
+      "url": "https://www.youtube.com/watch?v=3VbHg5fqBYw"
+    },
+    {
+      "iso_639_1": "en",
+      "iso_3166_1": "US",
+      "key": "pVxOVlm_lE8",
+      "name": "Big Game Spot",
+      "site": "YouTube",
+      "size": 1080,
+      "type": "Teaser",
+      "url": "https://www.youtube.com/watch?v=pVxOVlm_lE8"
+    },
+    {
+      "iso_639_1": "en",
+      "iso_3166_1": "US",
+      "key": "QwievZ1Tx-8",
+      "name": "Official Trailer #2",
+      "site": "YouTube",
+      "size": 1080,
+      "type": "Trailer",
+      "url": "https://www.youtube.com/watch?v=QwievZ1Tx-8"
+    },
+    {
+      "iso_639_1": "en",
+      "iso_3166_1": "US",
+      "key": "LXPaDL_oILs",
+      "name": "\"Legacy\" TV Spot",
+      "site": "YouTube",
+      "size": 1080,
+      "type": "Teaser",
+      "url": "https://www.youtube.com/watch?v=LXPaDL_oILs"
+    },
+    {
+      "iso_639_1": "en",
+      "iso_3166_1": "US",
+      "key": "PbRmbhdHDDM",
+      "name": "\"Family\" Featurette",
+      "site": "YouTube",
+      "size": 1080,
+      "type": "Featurette",
+      "url": "https://www.youtube.com/watch?v=PbRmbhdHDDM"
+    }
+  ]
+}

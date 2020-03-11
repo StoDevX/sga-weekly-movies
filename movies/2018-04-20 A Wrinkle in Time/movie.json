@@ -1,0 +1,40 @@
+{
+  "Title": "A Wrinkle in Time",
+  "Year": "2018",
+  "Rated": "PG",
+  "Released": "09 Mar 2018",
+  "Runtime": "109 min",
+  "Genre": "Adventure, Family, Fantasy",
+  "Director": "Ava DuVernay",
+  "Writer": "Jennifer Lee (screenplay by), Jeff Stockwell (screenplay by), Madeleine L'Engle (based upon the novel by)",
+  "Actors": "Storm Reid, Oprah Winfrey, Reese Witherspoon, Mindy Kaling",
+  "Plot": "After the disappearance of her scientist father, three peculiar beings send Meg, her brother, and her friend to space in order to find him.",
+  "Language": "English",
+  "Country": "USA",
+  "Awards": "1 win.",
+  "Poster": "https://ia.media-imdb.com/images/M/MV5BMjMxNjQ5MTI3MV5BMl5BanBnXkFtZTgwMjQ2MTAyNDM@._V1_SX300.jpg",
+  "Ratings": [
+    {
+      "Source": "Internet Movie Database",
+      "Value": "4.2/10"
+    },
+    {
+      "Source": "Rotten Tomatoes",
+      "Value": "39%"
+    },
+    {
+      "Source": "Metacritic",
+      "Value": "53/100"
+    }
+  ],
+  "Metascore": "53",
+  "imdbRating": "4.2",
+  "imdbVotes": "9,360",
+  "imdbID": "tt1620680",
+  "Type": "movie",
+  "DVD": "N/A",
+  "BoxOffice": "N/A",
+  "Production": "Walt Disney Pictures",
+  "Website": "http://movies.disney.com/a-wrinkle-in-time",
+  "Response": "True"
+}

@@ -1,0 +1,40 @@
+{
+  "Title": "If Beale Street Could Talk",
+  "Year": "2018",
+  "Rated": "R",
+  "Released": "25 Dec 2018",
+  "Runtime": "119 min",
+  "Genre": "Crime, Drama, Romance",
+  "Director": "Barry Jenkins",
+  "Writer": "Barry Jenkins (written for the screen by), James Baldwin (based on the book by)",
+  "Actors": "KiKi Layne, Stephan James, Regina King, Colman Domingo",
+  "Plot": "A woman in Harlem embraces her pregnancy while she and her family struggle to prove her fiancé innocent of a crime.",
+  "Language": "English, Spanish",
+  "Country": "USA",
+  "Awards": "N/A",
+  "Poster": "https://m.media-amazon.com/images/M/MV5BZWVkMzY5NzgtMTdlNS00NjY5LThjOTktZWFkNDU3NmQzMDIwXkEyXkFqcGdeQXVyODk2NDQ3MTA@._V1_SX300.jpg",
+  "Ratings": [
+    {
+      "Source": "Internet Movie Database",
+      "Value": "7.6/10"
+    },
+    {
+      "Source": "Rotten Tomatoes",
+      "Value": "95%"
+    },
+    {
+      "Source": "Metacritic",
+      "Value": "87/100"
+    }
+  ],
+  "Metascore": "87",
+  "imdbRating": "7.6",
+  "imdbVotes": "9,534",
+  "imdbID": "tt7125860",
+  "Type": "movie",
+  "DVD": "N/A",
+  "BoxOffice": "N/A",
+  "Production": "Annapurna Pictures",
+  "Website": "http://bealestreet.movie/",
+  "Response": "True"
+}

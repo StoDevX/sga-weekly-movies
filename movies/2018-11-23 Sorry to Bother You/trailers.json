@@ -1,0 +1,24 @@
+{
+  "trailers": [
+    {
+      "iso_639_1": "en",
+      "iso_3166_1": "US",
+      "key": "enH3xA4mYcY",
+      "name": "SORRY TO BOTHER YOU | Official Trailer",
+      "site": "YouTube",
+      "size": 1080,
+      "type": "Trailer",
+      "url": "https://www.youtube.com/watch?v=enH3xA4mYcY"
+    },
+    {
+      "iso_639_1": "en",
+      "iso_3166_1": "US",
+      "key": "XeISaoQDh2g",
+      "name": "SORRY TO BOTHER YOU | Red Band Trailer",
+      "site": "YouTube",
+      "size": 1080,
+      "type": "Trailer",
+      "url": "https://www.youtube.com/watch?v=XeISaoQDh2g"
+    }
+  ]
+}

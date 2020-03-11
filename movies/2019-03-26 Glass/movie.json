@@ -1,0 +1,40 @@
+{
+  "Title": "Glass",
+  "Year": "2019",
+  "Rated": "PG-13",
+  "Released": "18 Jan 2019",
+  "Runtime": "129 min",
+  "Genre": "Drama, Sci-Fi, Thriller",
+  "Director": "M. Night Shyamalan",
+  "Writer": "M. Night Shyamalan",
+  "Actors": "James McAvoy, Bruce Willis, Samuel L. Jackson, Anya Taylor-Joy",
+  "Plot": "Security guard David Dunn uses his supernatural abilities to track Kevin Wendell Crumb, a disturbed man who has twenty-four personalities.",
+  "Language": "Spanish, English",
+  "Country": "USA",
+  "Awards": "N/A",
+  "Poster": "https://m.media-amazon.com/images/M/MV5BMTY1OTA2MjI5OV5BMl5BanBnXkFtZTgwNzkxMjU4NjM@._V1_SX300.jpg",
+  "Ratings": [
+    {
+      "Source": "Internet Movie Database",
+      "Value": "7.0/10"
+    },
+    {
+      "Source": "Rotten Tomatoes",
+      "Value": "37%"
+    },
+    {
+      "Source": "Metacritic",
+      "Value": "42/100"
+    }
+  ],
+  "Metascore": "42",
+  "imdbRating": "7.0",
+  "imdbVotes": "66,312",
+  "imdbID": "tt6823368",
+  "Type": "movie",
+  "DVD": "16 Apr 2019",
+  "BoxOffice": "N/A",
+  "Production": "Universal Pictures",
+  "Website": "http://www.glassmovie.com/",
+  "Response": "True"
+}

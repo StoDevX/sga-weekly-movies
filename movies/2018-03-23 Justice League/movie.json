@@ -1,0 +1,40 @@
+{
+  "Title": "Justice League",
+  "Year": "2017",
+  "Rated": "PG-13",
+  "Released": "17 Nov 2017",
+  "Runtime": "120 min",
+  "Genre": "Action, Adventure, Fantasy",
+  "Director": "Zack Snyder",
+  "Writer": "Chris Terrio (screenplay by), Joss Whedon (screenplay by), Chris Terrio (story by), Zack Snyder (story by), Jerry Siegel (Superman created by), Joe Shuster (Superman created by), Gardner Fox (Justice League of America created by), Bob Kane (Batman created by), Bill Finger (Batman created by), William Moulton Marston (Wonder Woman created by), Jack Kirby (Fourth World created by)",
+  "Actors": "Ben Affleck, Henry Cavill, Amy Adams, Gal Gadot",
+  "Plot": "Fueled by his restored faith in humanity and inspired by Superman's selfless act, Bruce Wayne enlists the help of his newfound ally, Diana Prince, to face an even greater enemy.",
+  "Language": "English, Irish, Russian, Icelandic",
+  "Country": "USA, UK, Canada",
+  "Awards": "5 nominations.",
+  "Poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BYWVhZjZkYTItOGIwYS00NmRkLWJlYjctMWM0ZjFmMDU4ZjEzXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SX300.jpg",
+  "Ratings": [
+    {
+      "Source": "Internet Movie Database",
+      "Value": "6.8/10"
+    },
+    {
+      "Source": "Rotten Tomatoes",
+      "Value": "40%"
+    },
+    {
+      "Source": "Metacritic",
+      "Value": "45/100"
+    }
+  ],
+  "Metascore": "45",
+  "imdbRating": "6.8",
+  "imdbVotes": "213,895",
+  "imdbID": "tt0974015",
+  "Type": "movie",
+  "DVD": "13 Mar 2018",
+  "BoxOffice": "$227,032,490",
+  "Production": "Warner Bros. Pictures",
+  "Website": "http://www.justiceleaguethemovie.com/",
+  "Response": "True"
+}

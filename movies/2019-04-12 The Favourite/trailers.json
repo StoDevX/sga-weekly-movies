@@ -1,0 +1,24 @@
+{
+  "trailers": [
+    {
+      "iso_639_1": "en",
+      "iso_3166_1": "US",
+      "key": "SojHxpqswV8",
+      "name": "THE FAVOURITE | Teaser Trailer | FOX Searchlight",
+      "site": "YouTube",
+      "size": 1080,
+      "type": "Teaser",
+      "url": "https://www.youtube.com/watch?v=SojHxpqswV8"
+    },
+    {
+      "iso_639_1": "en",
+      "iso_3166_1": "US",
+      "key": "SYb-wkehT1g",
+      "name": "THE FAVOURITE | Official Trailer | FOX Searchlight",
+      "site": "YouTube",
+      "size": 1080,
+      "type": "Trailer",
+      "url": "https://www.youtube.com/watch?v=SYb-wkehT1g"
+    }
+  ]
+}

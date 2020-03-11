@@ -1,0 +1,22 @@
+{
+  "showings": [
+    {
+      "date": "2019-01-04",
+      "times": [
+        "17:00",
+        "19:30",
+        "22:00"
+      ],
+      "location": "Viking Theater"
+    },
+    {
+      "date": "2019-01-05",
+      "times": [
+        "17:00",
+        "19:30",
+        "22:00"
+      ],
+      "location": "Viking Theater"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "trailers": [
+    {
+      "iso_639_1": "en",
+      "iso_3166_1": "US",
+      "key": "FJrpcDgC3zU",
+      "name": "Zindagi Na Milegi Dobara | Official Trailer | Hrithik Roshan, Farhan Akhtar, Abhay Deol",
+      "site": "YouTube",
+      "size": 1080,
+      "type": "Trailer",
+      "url": "https://www.youtube.com/watch?v=FJrpcDgC3zU"
+    },
+    {
+      "iso_639_1": "en",
+      "iso_3166_1": "US",
+      "key": "5GAm2Y_3Gck",
+      "name": "Zindagi Na Milegi Dobara (Officail Teaser)",
+      "site": "YouTube",
+      "size": 720,
+      "type": "Teaser",
+      "url": "https://www.youtube.com/watch?v=5GAm2Y_3Gck"
+    }
+  ]
+}

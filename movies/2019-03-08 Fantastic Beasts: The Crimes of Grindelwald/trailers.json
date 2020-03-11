@@ -1,0 +1,84 @@
+{
+  "trailers": [
+    {
+      "iso_639_1": "en",
+      "iso_3166_1": "US",
+      "key": "5sEaYB4rLFQ",
+      "name": "Fantastic Beasts: The Crimes of Grindelwald - Official Teaser Trailer",
+      "site": "YouTube",
+      "size": 1080,
+      "type": "Teaser",
+      "url": "https://www.youtube.com/watch?v=5sEaYB4rLFQ"
+    },
+    {
+      "iso_639_1": "en",
+      "iso_3166_1": "US",
+      "key": "vvFybpmyB9E",
+      "name": "Fantastic Beasts: The Crimes of Grindelwald - Official Comic-Con Trailer",
+      "site": "YouTube",
+      "size": 1080,
+      "type": "Trailer",
+      "url": "https://www.youtube.com/watch?v=vvFybpmyB9E"
+    },
+    {
+      "iso_639_1": "en",
+      "iso_3166_1": "US",
+      "key": "8bYBOVWLNIs",
+      "name": "Fantastic Beasts: The Crimes of Grindelwald - Final Trailer",
+      "site": "YouTube",
+      "size": 1080,
+      "type": "Trailer",
+      "url": "https://www.youtube.com/watch?v=8bYBOVWLNIs"
+    },
+    {
+      "iso_639_1": "en",
+      "iso_3166_1": "US",
+      "key": "U0YyQ9TGQa0",
+      "name": "Fantastic Beasts: The Crimes of Grindelwald (2018) - Featurette - Newt's New Grindelwald",
+      "site": "YouTube",
+      "size": 1080,
+      "type": "Featurette",
+      "url": "https://www.youtube.com/watch?v=U0YyQ9TGQa0"
+    },
+    {
+      "iso_639_1": "en",
+      "iso_3166_1": "US",
+      "key": "_dVmXhXFI6o",
+      "name": "Fantastic Beasts: The Crimes of Grindelwald (2018) - TV Spot - Hunt",
+      "site": "YouTube",
+      "size": 1080,
+      "type": "Teaser",
+      "url": "https://www.youtube.com/watch?v=_dVmXhXFI6o"
+    },
+    {
+      "iso_639_1": "en",
+      "iso_3166_1": "US",
+      "key": "DwfO-pLonAY",
+      "name": "Fantastic Beasts: The Crimes of Grindelwald (2018) - Featurette - Distinctly Dumbledore",
+      "site": "YouTube",
+      "size": 1080,
+      "type": "Featurette",
+      "url": "https://www.youtube.com/watch?v=DwfO-pLonAY"
+    },
+    {
+      "iso_639_1": "en",
+      "iso_3166_1": "US",
+      "key": "9M2QMIio8sY",
+      "name": "Fantastic Beasts: The Crimes of Grindelwald (2018) - Featurette - Harry Potter",
+      "site": "YouTube",
+      "size": 1080,
+      "type": "Featurette",
+      "url": "https://www.youtube.com/watch?v=9M2QMIio8sY"
+    },
+    {
+      "iso_639_1": "en",
+      "iso_3166_1": "US",
+      "key": "DCfCA92Eifk",
+      "name": "Fantastic Beasts: The Crimes of Grindelwald - TV Spot - Chosen (2018)",
+      "site": "YouTube",
+      "size": 1080,
+      "type": "Teaser",
+      "url": "https://www.youtube.com/watch?v=DCfCA92Eifk"
+    }
+  ]
+}

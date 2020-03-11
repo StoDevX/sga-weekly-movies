@@ -1,0 +1,42 @@
+{
+  "Title": "Annabelle: Creation",
+  "Year": "2017",
+  "Rated": "R",
+  "Released": "11 Aug 2017",
+  "Runtime": "109 min",
+  "Genre": "Horror, Mystery, Thriller",
+  "Director": "David F. Sandberg",
+  "Writer": "Gary Dauberman, Gary Dauberman (based on characters created by)",
+  "Actors": "Anthony LaPaglia, Samara Lee, Miranda Otto, Brad Greenquist",
+  "Plot":
+    "12 years after the tragic death of their little girl, a dollmaker and his wife welcome a nun and several girls from a shuttered orphanage into their home, where they soon become the target of the dollmaker's possessed creation, Annabelle.",
+  "Language": "English, Spanish",
+  "Country": "USA",
+  "Awards": "1 nomination.",
+  "Poster":
+    "https://images-na.ssl-images-amazon.com/images/M/MV5BMjA1MzIwMjMxNF5BMl5BanBnXkFtZTgwMDQ3NTc2MjI@._V1_SX300.jpg",
+  "Ratings": [
+    {
+      "Source": "Internet Movie Database",
+      "Value": "6.7/10"
+    },
+    {
+      "Source": "Rotten Tomatoes",
+      "Value": "70%"
+    },
+    {
+      "Source": "Metacritic",
+      "Value": "62/100"
+    }
+  ],
+  "Metascore": "62",
+  "imdbRating": "6.7",
+  "imdbVotes": "49,817",
+  "imdbID": "tt5140878",
+  "Type": "movie",
+  "DVD": "24 Oct 2017",
+  "BoxOffice": "$101,788,793",
+  "Production": "New Line Cinema",
+  "Website": "http://www.annabellemovie.com",
+  "Response": "True"
+}

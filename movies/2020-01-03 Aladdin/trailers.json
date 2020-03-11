@@ -1,0 +1,34 @@
+{
+  "trailers": [
+    {
+      "iso_639_1": "en",
+      "iso_3166_1": "US",
+      "key": "9g5knnlF7Zo",
+      "name": "Disney's Aladdin Teaser Trailer - In Theaters May 24th, 2019",
+      "site": "YouTube",
+      "size": 1080,
+      "type": "Teaser",
+      "url": "https://www.youtube.com/watch?v=9g5knnlF7Zo"
+    },
+    {
+      "iso_639_1": "en",
+      "iso_3166_1": "US",
+      "key": "7hHECMVOq7g",
+      "name": "Disney's Aladdin - Special Look:  In Theaters May 24",
+      "site": "YouTube",
+      "size": 1080,
+      "type": "Teaser",
+      "url": "https://www.youtube.com/watch?v=7hHECMVOq7g"
+    },
+    {
+      "iso_639_1": "en",
+      "iso_3166_1": "US",
+      "key": "foyufD52aog",
+      "name": "Disney's Aladdin Official Trailer - In Theaters May 24!",
+      "site": "YouTube",
+      "size": 1080,
+      "type": "Trailer",
+      "url": "https://www.youtube.com/watch?v=foyufD52aog"
+    }
+  ]
+}

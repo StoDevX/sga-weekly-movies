@@ -1,0 +1,24 @@
+{
+  "trailers": [
+    {
+      "iso_639_1": "en",
+      "iso_3166_1": "US",
+      "key": "ORFWdXl_zJ4",
+      "name": "Disney/Pixar's Up - Official Trailer",
+      "site": "YouTube",
+      "size": 360,
+      "type": "Trailer",
+      "url": "https://www.youtube.com/watch?v=ORFWdXl_zJ4"
+    },
+    {
+      "iso_639_1": "en",
+      "iso_3166_1": "US",
+      "key": "Ajcdb4FAL7A",
+      "name": "Disney/Pixar's UP - Official Trailer #2",
+      "site": "YouTube",
+      "size": 360,
+      "type": "Trailer",
+      "url": "https://www.youtube.com/watch?v=Ajcdb4FAL7A"
+    }
+  ]
+}

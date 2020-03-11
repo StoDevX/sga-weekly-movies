@@ -1,0 +1,34 @@
+{
+  "trailers": [
+    {
+      "iso_639_1": "en",
+      "iso_3166_1": "US",
+      "key": "2QKg5SZ_35I",
+      "name": "JUMANJI: WELCOME TO THE JUNGLE - Official Trailer (HD)",
+      "site": "YouTube",
+      "size": 1080,
+      "type": "Trailer",
+      "url": "https://www.youtube.com/watch?v=2QKg5SZ_35I"
+    },
+    {
+      "iso_639_1": "en",
+      "iso_3166_1": "US",
+      "key": "ubn4zeM40tk",
+      "name": "JUMANJI: WELCOME TO THE JUNGLE -  International Trailer (HD)",
+      "site": "YouTube",
+      "size": 1080,
+      "type": "Trailer",
+      "url": "https://www.youtube.com/watch?v=ubn4zeM40tk"
+    },
+    {
+      "iso_639_1": "en",
+      "iso_3166_1": "US",
+      "key": "v_TJKwJwN0E",
+      "name": "JUMANJI: WELCOME TO THE JUNGLE - Official Trailer #2",
+      "site": "YouTube",
+      "size": 1080,
+      "type": "Trailer",
+      "url": "https://www.youtube.com/watch?v=v_TJKwJwN0E"
+    }
+  ]
+}

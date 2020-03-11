@@ -1,0 +1,40 @@
+{
+  "Title": "National Treasure",
+  "Year": "2004",
+  "Rated": "PG",
+  "Released": "19 Nov 2004",
+  "Runtime": "131 min",
+  "Genre": "Action, Adventure, Family",
+  "Director": "Jon Turteltaub",
+  "Writer": "Jim Kouf (screenplay), Cormac Wibberley (screenplay), Marianne Wibberley (screenplay), Jim Kouf (story), Oren Aviv (story), Charles Segars (story)",
+  "Actors": "Nicolas Cage, Diane Kruger, Justin Bartha, Sean Bean",
+  "Plot": "A historian races to find the legendary Templar Treasure before a team of mercenaries.",
+  "Language": "English, Spanish",
+  "Country": "USA",
+  "Awards": "1 win & 9 nominations.",
+  "Poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTY3NTc4OTYxMF5BMl5BanBnXkFtZTcwMjk5NzUyMw@@._V1_SX300.jpg",
+  "Ratings": [
+    {
+      "Source": "Internet Movie Database",
+      "Value": "6.9/10"
+    },
+    {
+      "Source": "Rotten Tomatoes",
+      "Value": "44%"
+    },
+    {
+      "Source": "Metacritic",
+      "Value": "39/100"
+    }
+  ],
+  "Metascore": "39",
+  "imdbRating": "6.9",
+  "imdbVotes": "272,884",
+  "imdbID": "tt0368891",
+  "Type": "movie",
+  "DVD": "03 May 2005",
+  "BoxOffice": "$172,975,674",
+  "Production": "Buena Vista",
+  "Website": "http://www.nationaltreasure.com/",
+  "Response": "True"
+}

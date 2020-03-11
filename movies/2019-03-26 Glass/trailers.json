@@ -1,0 +1,24 @@
+{
+  "trailers": [
+    {
+      "iso_639_1": "en",
+      "iso_3166_1": "US",
+      "key": "95ghQs5AmNk",
+      "name": "Glass - Official Trailer [HD]",
+      "site": "YouTube",
+      "size": 1080,
+      "type": "Trailer",
+      "url": "https://www.youtube.com/watch?v=95ghQs5AmNk"
+    },
+    {
+      "iso_639_1": "en",
+      "iso_3166_1": "US",
+      "key": "Q7ztHi9ejp4",
+      "name": "Glass - Official Trailer #2 [HD]",
+      "site": "YouTube",
+      "size": 1080,
+      "type": "Trailer",
+      "url": "https://www.youtube.com/watch?v=Q7ztHi9ejp4"
+    }
+  ]
+}
